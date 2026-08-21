@@ -1,16 +1,11 @@
 ---
-title: CMSC 491/691 - Interactive Fiction and Text Generation - UMBC
+title: CMSC 412/612 - Neurosymbolic and Text Generation - UMBC
 layout: default
-img: heroes_journey.png
 active_tab: main_page 
 ---
 
 
-<!--
-<div class="alert alert-success" markdown="1">
-[Post your game here.](https://docs.google.com/document/d/1XpBEevYpHvLjCr-3CkAhERN_GPHsjNmkPo-Wf9KjxDs/edit?usp=sharing)
-</div>
--->
+
 
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
@@ -53,36 +48,35 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 
 
-# CMSC 491/691 - Interactive Fiction and Text Generation at UMBC
+# CMSC 412/612 - Neurosymbolic Text Generation at UMBC
 
-## Fall 2025
+## Fall 2026
 
 ### Prerequisites 
-At least one of the following courses if you are an undergrad:
-: CMSC 341 or CMSC 341H
+CMSC 341 and one of (CMPE 320, STAT 355, or STAT 451) with a grade of ‘C’ or better.
+
 
 ### Course Description
-We know now that artificial intelligence (AI) can play chess, Go, or even Starcraft, but can AI play text adventure games (also known as interactive fiction)? What about roleplaying games like Dungeons & Dragons? In this course, we will be looking at the subfields of automated story generation (teaching computers to tell stories), interactive fiction (teaching computers to play through stories), and their intersection (teaching computers to tell and then play through the stories). This class will teach you about computational creativity and help develop your skills in natural language processing and cognitive modeling. 
+Pretrained language models (like LLMs) have the ability to generate coherent text that is far better than what previous generations of text generation models could produce. As a result, such models can be incredibly useful, but there are still a lot of unanswered questions surrounding them. Can they be safer? Solve complex problems? Tell stories? Neurosymbolic methods combine neural techniques (like LLMs or other neural networks) with older, symbolic AI techniques that are more interpretable and predictable in their behavior. In this course, we will be using and creating neurosymbolic methods as the "best of both worlds", namely improving LLMs by integrating symbolic methods such as knowledge graphs, rule-based engines, or planning. You will learn about various neural and symbolic techniques separately and how they can be incorporated together, developing your skills in natural language processing and cognitive modeling.
 
 ### Learning Objectives
 By the end of the course, you will be able to...
-1. See the components of what goes into creating text-based games and automatically generating stories.
-2. Understand the strengths and weaknesses of neural language models (LMs) for storytelling.
-3. Implement and appraise the value of (a) conditioned generation, (b) planning, and (c) schemata in story generation/interactive fiction playing.
-4. Combine and argue for the appropriate components of a working story generation system or interactive fiction--playing system.
-5. Create your own story generation system or interactive fiction--playing system.
+<ul>
+<li>Understand the strengths and weaknesses of neural language models (LMs) by themselves.</li>
+<li>Implement and appraise the value of
+	<ul>
+	<li>conditioned generation,</li>
+	<li>planning, and</li>
+	<li>schemata</li>
+	</ul>
+	in text generation.</li>
+<li>Discuss complex neurosymbolic systems and argue for the appropriate components of a working neurosymbolic text generation system.</li>
+<li>Create your own neurosymbolic text generation system.</li>
+</ul>
 
 
 
 
-<!-- 
-: This class will cover several areas.
-* Text Adventure Games - How they are implemented and how we can build agents that automatically solve them.
-* Common-sense Reasoning - TODO
-* Narrative Understanding - Extracting narrative structure (event schemas) from text
-* Text Generation - Generating natural-sounding text that follows a desired style, narrative arc, or other attribute.
-* Chatbots / Dialog Systems - TODO
--->
 
 ### Staff
 **Instructor**
@@ -90,22 +84,22 @@ By the end of the course, you will be able to...
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 
 **TA**
-: [Duong Ta](https://duongta155.github.io/)
-: [dta1@umbc.edu](mailto:dta1@umbc.edu)
+: []()
+: [](mailto:)
 
 **Office Hours**
-: Lara - Thursdays from 3:15-5pm in ITE 342-A or [by appointment](https://calendly.com/laramar/schedule)
-: Ta - Wednesdays from 2-4pm in ITE 340 or [by appointment](mailto:dta1@umbc.edu)
+: Lara - TBD <!--Thursdays from 3:15-5pm in ITE 342-A or [by appointment](https://calendly.com/laramar/schedule)-->
+: - <!--Wednesdays from 2-4pm in ITE 340 or [by appointment](mailto:dta1@umbc.edu)-->
 
 ### Logistics
 **Time and Place**
-: Fall 2025, Tuesdays & Thursdays from 11:30am - 12:45pm ET in Interdisciplinary Life Sciences 116A
-: First day of class is August 28, 2025
-: Last day of class is December 9, 2025
-: Final project presentations will be held on December 11th from 10:30am - 12:30pm
+: Fall 2026, Tuesdays & Thursdays from 11:30am - 12:45pm ET in Janet & Walter Sondheim 108
+: First day of class is August 25, 2026
+: Last day of class is December 8, 2026
+: <!--Final project presentations will be held on December 11th from 10:30am - 12:30pm-->
 
 ### Course Materials
-There is no textbook for this course, but you will be required to puchase a variety of materials including games, software, and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
+There is no textbook for this course, but you will be required to puchase a variety of materials including software and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
 
 #### Materials 
 * [OpenAI API account](https://platform.openai.com/api-keys) - Pay-as-you-go
@@ -113,20 +107,8 @@ There is no textbook for this course, but you will be required to puchase a vari
   * Please **do not** sign up for the ChatGPT Plus subscription since you do not get access to the API with it.
 <!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
 
-#### Games
-<!-- : [Labyrinth The Adventure Game](https://www.amazon.com/Jim-Hensons-Labyrinth-Adv-Game/dp/1916011551/) - $35 on Amazon -->
-* [Action Castle](http://www.memento-mori.com/pdf/parsely-preview-n-play-edition) - Free (you can optionally buy the cool [Parsley book in print](http://www.memento-mori.com/books/parsely-book) or [PDF](http://www.memento-mori.com/pdf/parsely-pdf)) - $20-30
-* Optional: [Dungeon Master's Guide - Dungeons & Dragons 5th edition Core Rulebook](https://www.amazon.com/Dungeons-Dragons-Dungeon-Rulebook-Roleplaying/dp/0786965622/) by Wizards of the Coast - $31
 
 
-<!--
-: $20-30 [Parsley](http://www.memento-mori.com/parsely-products/) by Jared A Sorensen
-Books
-: (Optional) [So You Want To Be A Game Master: Everything You Need to Start Your Tabletop Adventure for Dungeons and Dragons, Pathfinder, and Other Systems](https://www.amazon.com/gp/product/1645679152/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1) - $25 on Amazon
-
-: [$10](http://www.drivethrurpg.com/product/108028/Dungeon-World)-[$25](https://www.burningwheel.com/dungeon-world-1/) [Dungeon World](https://dungeon-world.com/) by Sage LaTorra and Adam Koebel
-
--->
 
 ### Grading
 
