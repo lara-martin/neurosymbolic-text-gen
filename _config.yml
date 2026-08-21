@@ -1,0 +1,6 @@
+exclude: ['README.md']
+timezone: US/Eastern
+markdown: kramdown
+highlighter: rouge
+future: true
+baseurl: /neurosymbolic-text-gen
