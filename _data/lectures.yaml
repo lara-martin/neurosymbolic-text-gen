@@ -1,145 +1,127 @@
 -
-  date: 2025-08-28
-  title: Intro to the class, Interactive Fiction, and Automated Story Generation
-  activities: 
-    -
-      title: Play a text adventure game
-      url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7961021_1?courseId=_96140_1&gradeitemView=details
-      #url: play-text-adventures/play-text-adventures.html
-
-
+  date: 2026-08-25
+  title: What is Neurosymbolic AI?
 
 -
-  date: 2025-09-02
-  title: Neural Language Models + Attention
+  date: 2026-08-27
+  title: Language Modeling
 
 -
-  date: 2025-09-03
+  date: 2026-08-28
   title: Waitlist Deadline
   type: no_lecture
 
 -
-  date: 2025-09-04
+  date: 2026-08-31
   title: Waitlists Deactivated
   type: no_lecture      
 
 -
-  date: 2025-09-04
+  date: 2026-09-01
   title: Transformers
   activities:
-    -
-      title: Visualizing Attention 
-      url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7981860_1?courseId=_96140_1&gradeitemView=details #Visualizing_Attention_with_BertViz.ipynb
-    -
-      title: (Optional) Transformers Tutorial
-      url: transformer_tutorial.ipynb
+    #-
+    #  title: Visualizing Attention 
+    #  url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7981860_1?courseId=_96140_1&gradeitemView=details #Visualizing_Attention_with_BertViz.ipynb
+    #-
+    #  title: (Optional) Transformers Tutorial
+    #  url: transformer_tutorial.ipynb
   #activities:
   #  -
   #    title: Create Data for Intent Detection
   #    url: intent-detection/intent-detection.html
 
+
 -
-  date: 2025-09-05
+  date: 2026-09-03
+  title: Sampling Output
+  activities: 
+    #-
+    #  title: Prompting #Generating Room Descriptions
+    #  url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7989301_1?courseId=_96140_1&gradeitemView=details #openai-playground/room-descriptions.html
+
+
+-
+  date: 2026-09-04
+  title: Schedule Adjustment Deadline
+  type: no_lecture
+ 
+-
+  date: 2026-09-05
   title: Grad Presentation Sign-up Due
   type: deadline
 
 -
-  date: 2025-09-09
-  title: Prompting and Decoding
-  activities: 
-    -
-      title: Prompting #Generating Room Descriptions
-      url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7989301_1?courseId=_96140_1&gradeitemView=details #openai-playground/room-descriptions.html
-
-
--
-  date: 2025-09-10
-  title: Last day to drop without a W
-  type: no_lecture
- 
-
--
-  date: 2025-09-11
-  title: No Class - At Tapia
-  type: no_lecture
-  
-  
--
-  date: 2025-09-12
-  type: deadline
-  homework_due:   
-    -
-      title: "HW0: Build a Text-Adventure Game"
-      url: text-adventure-game/text-adventure-game.html
- 
-      
--
-  date: 2025-09-16
-  title: Foundation Models + Word Embeddings
+  date: 2026-09-08
+  title: Types of Foundation Models & Word Embeddings
   activities:
-    -
-      title: Word Embeddings Poll
-      url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7999446_1?courseId=_96140_1&gradeitemView=details
+    #-
+    #  title: Word Embeddings Poll
+    #  url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7999446_1?courseId=_96140_1&gradeitemView=details
+
+  
+ 
+
 
  
 -
-  date: 2025-09-18
+  date: 2026-09-10
   title: Module 1 Paper Presentations
   
 
 
 -
-  date: 2025-09-23
+  date: 2026-09-15
   title: Scripts and Events
   activities:
-    -
-      title: Script Graph
-      url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_8002473_1?courseId=_96140_1&gradeitemView=details #script_making.html
-    -
-      title: Script Facts Poll
-      url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_8002794_1?courseId=_96140_1&gradeitemView=details
+    #-
+      #title: Script Graph
+      #url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_8002473_1?courseId=_96140_1&gradeitemView=details #script_making.html
+    #-
+      #title: Script Facts Poll
+      #url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_8002794_1?courseId=_96140_1&gradeitemView=details
 
 -
-  date: 2025-09-25
+  date: 2026-09-17
   title: Understanding Procedures
  
 
 -
-  date: 2025-09-30
-  title: Guided Story Generation
+  date: 2026-09-22
+  title: Guided Generation
   activities:
-    -
-      title: Guided Generation System Comparison
-      url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/Test/_8008326_1?courseId=_96140_1&gradeitemView=details&gradebookCategoryId=_24424743_1&assessmentSubtype=Assignment
+    #-
+    #  title: Guided Generation System Comparison
+    #  url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/Test/_8008326_1?courseId=_96140_1&gradeitemView=details&gradebookCategoryId=_24424743_1&assessmentSubtype=Assignment
   
 -
-  date: 2025-10-02
+  date: 2026-09-24
   title: Retrieval-Augmented Generation
  
 -
-  date: 2025-10-07
+  date: 2026-09-29
   title: Module 2 Paper Presentations
    
 -
-  date: 2025-10-09
-  title: AI Agents and Search
+  date: 2026-10-01
+  title: Search
   activities:
-    -
-      title: Search Algorithms for Action Castle
-      url: search/action-castle-search.html  
+    #-
+    #  title: Search Algorithms for Action Castle
+    #  url: search/action-castle-search.html  
 
 
 -
-  date: 2025-10-10
+  date: 2026-10-10
   type: deadline
   homework_due:
     -
       title: "HW1: Prompting and Fine-tuning"
-      url: generating-descriptions/light.html 
+      url: #generating-descriptions/light.html 
 
 -
-  date: 2025-10-14
-  title: "Classical Planning and Story/Game Planning"
+  date: 2026-10-06
+  title: Classical Planning
   #activities:
   #  -
   #    title: Planning and PDDL
@@ -147,81 +129,87 @@
 
               
 -
-  date: 2025-10-16
-  title: LLM-based Formal Planning
-  
--
-  date: 2025-10-17
+  date: 2026-10-08
+  title: LLM-based Planning
   type: deadline
   homework_due:   
     -
       title: Project Milestone 1&colon; Proposal
-      url: project/project-proposal.html
+#      url: #project/project-proposal.html
       
 -
-  date: 2025-10-21
+  date: 2026-10-13
+  title: Fall Recess - No Class
+  type: no_lecture
+      
+-
+  date: 2026-10-15
   title: Reinforcement Learning
   
     
 -
-  date: 2025-10-23
+  date: 2026-10-20
   title: Module 3 Paper Presentations
 
 
 -
-  date: 2025-10-28
-  title: Commonsense Reasoning and Causality
+  date: 2026-10-22
+  title: Commonsense Reasoning
 
 -
-  date: 2025-10-29
+  date: 2026-10-29
   type: deadline
   homework_due:
     -
       title: "HW2: Guided Generation"
-      url: plan-and-write/plan-and-write.html 
+      url: #plan-and-write/plan-and-write.html 
 
 -
-  date: 2025-10-30 
-  title: Commonsense 2
-
--
-  date: 2025-11-04
+  date: 2026-10-27
   title: Neurosymbolic Knowledge Base Systems
+
 -
-  date: 2025-11-05
+  date: 2026-10-29
+  title: Generating with Ontologies
+-
+  date: 2026-11-02
   title: Last day to withdraw from a course
   type: no_lecture    
 -
-  date: 2025-11-06
-  title:  Ontologies
+  date: 2026-11-03
+  title:  Generating Ontologies
 
     
 -
-  date: 2025-11-11
-  title: Module 4 Paper Presentations + World Modeling
+  date: 2026-11-05
+  title: Module 4 Paper Presentations
+  
+-
+  date: 2026-11-10
+  title: Putting a Human in the Loop
 
      
 -
-  date: 2025-11-13
+  date: 2026-11-12
   title: Dialog Systems
 
 
 
 -
-  date: 2025-11-14
+  date: 2026-11-14
   type: deadline
   homework_due:
     -
       title: "HW3: Creating Sabre Problems"
-      url: planning/sabre.html
+      url: #planning/sabre.html
     - 
       title: Final Project Milestone 2&colon; Project Progress
-      url: project/progress-report1.html        
+      url: #project/progress-report1.html        
   
 
 -
-  date: 2025-11-18
-  title: Character-Based Generation
+  date: 2026-11-17
+  title: Agent-based AI
   #activities:
   #  -
   #    title: Characters and Quests
@@ -229,69 +217,51 @@
 
 
 -
-  date: 2025-11-20
-  title: Final Project In-Class Help
-
-   #activities:
-  #  -
-  #    title: Train GPT-3 to Perform Dialogue for NPCs
-  #    url: dialogue/light-dialogue.html   
-
-
-#Reinforcement Learning for Playing Interactive Fiction
-#Neurosymbolic Story Generation
-#Theory of Mind and Intent in Procedural Agents
-#Story Evaluation
-#Visual Storytelling
-#Collaborative storytelling
-#RL for story generation
-
+  date: 2026-11-19
+  title: Personas and Roleplaying
 
 
 -
-  date: 2025-11-25
-  title: Evaluation
-
-    
+  date: 2026-11-24
+  title: Module 5 Paper Presentations 
+ 
 
 -
-  date: 2025-11-27
+  date: 2026-11-26
   title: Thanksgiving - No Class
   type: no_lecture  
 
--
-  date: 2025-12-02
-  title: Module 5 Paper Presentations 
 
 -
-  date: 2025-12-03
+  date: 2026-12-01
+  title: Evaluation
   type: deadline
   homework_due:
     - 
       title: Project Milestone 3&colon; Rough Draft
-      url: project/rough-draft.html
+      url: #project/rough-draft.html
       
 -
-  date: 2025-12-04
-  title: Personas, Roleplaying, and Interactive Storytelling
+  date: 2026-12-03
+  title: Final Project In-Class Work
   
 
 -
-  date: 2025-12-09
-  title: Final Project In-Class Help
+  date: 2026-12-08
+  title: Final Project In-Class Work
   type: deadline
   homework_due:
     - 
       title: "HW4: COMET-ATOMIC Schema"
-      url: knowledge-base/comet.html  
+      url: #knowledge-base/comet.html  
 
 
 
 -
-  date: 2025-12-11
+  date: 2026-12-17
   title: Final Project Presentations, 10:30am - 12:30pm
   type: deadline
   homework_due: 
     - 
       title: Project Milestone 4&colon; Final Submission
-      url: project/project-final.html  
+      url: #project/project-final.html  

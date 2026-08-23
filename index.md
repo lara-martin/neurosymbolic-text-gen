@@ -88,7 +88,7 @@ By the end of the course, you will be able to...
 : [](mailto:)
 
 **Office Hours**
-: Lara - TBD <!--Thursdays from 3:15-5pm in ITE 342-A or [by appointment](https://calendly.com/laramar/schedule)-->
+: Lara - Tuesdays from 3:15-5pm in ITE 342A or [by appointment](https://calendly.com/laramar/schedule)
 : - <!--Wednesdays from 2-4pm in ITE 340 or [by appointment](mailto:dta1@umbc.edu)-->
 
 ### Logistics
@@ -99,13 +99,15 @@ By the end of the course, you will be able to...
 : <!--Final project presentations will be held on December 11th from 10:30am - 12:30pm-->
 
 ### Course Materials
-There is no textbook for this course, but you will be required to puchase a variety of materials including software and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
+There is no textbook for this course, but you will be reading academic articles and book sections that will be provided to you. You may be required to purchase a variety of materials including software and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.
+
+We will also be using Blackboard for assignment submissions & grades, and this course website will have an updated course schedule, readings, and instructions for the assignments.
+
 
 #### Materials 
 * [OpenAI API account](https://platform.openai.com/api-keys) - Pay-as-you-go
   * Pricing for each model can be found [here](https://platform.openai.com/docs/pricing).
   * Please **do not** sign up for the ChatGPT Plus subscription since you do not get access to the API with it.
-<!--: [Midjourney subscription](https://www.midjourney.com/home) - $10/month -->
 
 
 
@@ -121,11 +123,11 @@ There is no textbook for this course, but you will be required to puchase a vari
     </tr>
   </thead>
   <tbody>
-  <tr> <td>Homework 0</td> <td> 7% </td><td> 7% </td></tr>
-  <tr> <td>Homework 1</td> <td> 12% </td><td> 12% </td></tr>
-  <tr> <td>Homework 2</td> <td> 12% </td><td> 12% </td></tr>
-  <tr> <td>Homework 3</td> <td> 12% </td><td> 12% </td></tr>
-  <tr> <td>Homework 4</td> <td> 12% </td><td> 12% </td></tr> 
+  <tr> <td>Homework 1</td> <td> 10% </td><td> 10% </td></tr>
+  <tr> <td>Homework 2</td> <td> 10% </td><td> 10% </td></tr>
+  <tr> <td>Homework 3</td> <td> 10% </td><td> 10% </td></tr>
+  <tr> <td>Homework 4</td> <td> 10% </td><td> 10% </td></tr> 
+  <tr> <td>Homework 5</td> <td> 10% </td><td> 10% </td></tr> 
   <tr> <td>Project</td> <td> 30% </td><td> 30% </td></tr>
   <tr> <td>Knowledge Checks</td> <td> 15% </td><td> 5% </td></tr>
   <tr> <td>Paper Presentation</td> <td> - </td><td> 10% </td></tr>
@@ -134,21 +136,31 @@ There is no textbook for this course, but you will be required to puchase a vari
 
 ### Assignment Descriptions
 **Knowledge Checks**
-: These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the topic of the day, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
-If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. They will be posted either on Blackboard or the course website (this website).
-Your two lowest grade class knowledge checks (i.e., incomplete or missing submissions) will be dropped.
+: _Learning Objectives 1, 2, & 3_
+: These checks are in place to see how well you all are understanding the material as the course goes. They will not be graded for accuracy, just whether or not you did them fully.  These might look like clicker questions (using Poll Everywhere), “minute” questions to get you to think about the topic of the day, or a small in-class assignment. There will be time devoted to doing them in class, but you are also allowed to make them up on your own time, including if you are not able to attend lecture. They will be posted either on Blackboard or the course website. Your two lowest grades (i.e., incomplete or missing submissions) will be dropped.
 
 **Paper Presentations (Grad students only)**
-: Over the course of the semester, each student must prepare one 8-minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us by 3PM the day before the presenation date.
+: _Learning Objectives 2 & 3_
+: Over the course of the semester, each graduate student must prepare one 5-minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to the instructor & TA by 3PM the day before the presentation date.
+
+**Homework 1-5**
+: _Learning Objectives 1 & 2_
+: There is one homework corresponding to each Module of the course. Each homework will test your understanding of and allow you to experiment with a particular method for generating text.
+
+**Project**
+: _Learning Objectives 3 & 4_
+: Throughout the entire semester, you will work in groups to develop your own text generation system. The project is a chance for you to delve into one (or several!) of the topics we have covered in class. You can choose between two directions: creating a novel interactive experience or answering a research question. The final deliverable will be either a **demo** or a **paper**, respectively, and a poster presentation. You will have multiple milestones to check in and make sure your team is making progress.
+: If you are trying to decide between multiple project ideas, or if you’re struggling to come up with something, we highly encourage you to come to office hours and discuss it with Dr. Martin. She will be able to help you narrow down which ideas of yours are the most feasible & interesting. 
+
 
 ### Class Policies
 #### Collaboration Policy
-Unless otherwise noted, you ARE allowed to work in pairs (2 people) on the homework assignments, and teams of 3-5 for the final project.
+Unless otherwise noted, you ARE allowed to work in pairs (2 people) on the homework assignments and a group of 3-5 for the final project. However, you must do the knowledge checks and paper presentation on your own.
 
 #### Late Day Policy 
-Each student has five free "late days" to be used on homeworks.  Each homework can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the last deadline for the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
+Each student has five free "late days" to be used on homeworks.  Each homework can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on project deadlines or paper presentations.**
 
-Knowledge checks can be made up at any time, no excuse needed. There will be an assignment for each knowledge check on Blackboard where you can submit your answer or materials.
+Knowledge checks can be made up at any time; no excuse is needed. There will be an assignment for each knowledge check on Blackboard where you can submit your answer or materials. You are strongly encouraged to complete these in a timely manner so that we are assessing your knowledge at an appropriate time in the semester.
 
 #### Academic Integrity
 If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
@@ -158,10 +170,10 @@ I care a lot about the students who take my classes, and that also means that I 
 #### Using LLMs or Generative AI
 This course is centered around text generation, and we will be using GPT for a large portion of it. That said, any time that you use a large language model (LLM) for an assignment you must provide (1) the exact prompt that you used and (2) the original, unedited generation.
 
-If you use GPT (or similar LLMs) for any other writing, you must still provide the prompt and the original generation, but you are also required to show where you edited the original generation.
-This applies to prose, code, or any form of content creation. Not disclosing is an academic integrity violation. If you do disclose, your answer may receive anywhere from 0 to full credit, depending on the extent of substantive edits, achievement of learning objectives, and overall circumvention of those objectives.
+If you use LLMs for any other writing (e.g., the project paper), you must provide the prompt and the original generation, but you are also required to show where you edited the original generation. This applies to prose, code, or any form of content creation. Not disclosing is an academic integrity violation. If you do disclose, your answer may receive anywhere from 0 to full credit, depending on the extent of substantive edits, achievement of learning objectives, and overall circumvention of those objectives.
 
 Use of AI/automatic tools for grammatical assistance (such as spell-checkers or Grammarly) or small-scale predictive text (e.g., next word prediction, tab completion) is okay. Provided the use of these tools does not change the substance of your work, use of these tools may be, but is not required to be, disclosed.
+
 
 ------
 ## UMBC School Policies

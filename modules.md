@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CMSC 491/691 - Modules
+title: CMSC 412/612 - Modules
 active_tab: modules
 ---
 <!-- Create a HTML anchor for the most recent module -->
