@@ -7,7 +7,7 @@ title: Prompting and Fine-tuning
 type: Homework
 number: 1
 active_tab: homework
-release_date: 2026-08-25
+release_date: 2026-08-24
 materials:
    -
      name: hw1.ipynb
