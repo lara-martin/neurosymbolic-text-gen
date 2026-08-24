@@ -61,7 +61,7 @@ Pretrained language models (like LLMs) have the ability to generate coherent tex
 
 ### Learning Objectives
 By the end of the course, you will be able to...
-<ul>
+<ol>
 <li>Understand the strengths and weaknesses of neural language models (LMs) by themselves.</li>
 <li>Implement and appraise the value of
 	<ul>
@@ -72,7 +72,7 @@ By the end of the course, you will be able to...
 	in text generation.</li>
 <li>Discuss complex neurosymbolic systems and argue for the appropriate components of a working neurosymbolic text generation system.</li>
 <li>Create your own neurosymbolic text generation system.</li>
-</ul>
+</ol>
 
 
 
