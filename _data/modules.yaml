@@ -177,12 +177,12 @@
       title: "Homework 1: Prompting and Fine-tuning"
       url: #generating-descriptions/light.html
       percentage: 10%
-      due_date: 2026
+      due_date: 2026-09-10
 
 -
   module_number: 2
   start_date: 2026-09-15
-  end_date: 2026
+  end_date: 2026-09-29
   title: Guided Generation
   description: Without any sort of scaffolding, neural networks can be difficult, if not impossible to control. This Module will teach you about guiding generation with scripts, causal chains, and events. We'll also look at how people have been using these techniques in the age of the neural network.
   lessons:
@@ -300,20 +300,20 @@
     -
       title: "Homework 2: Guided Generation"
       percentage: 10%
-      due_date: 2026
+      due_date: 2026-09-29
       url: #plan-and-write/plan-and-write.html
 
 -
   module_number: 3
-  start_date: 2026
-  end_date: 2026
+  start_date: 2026-10-01
+  end_date: 2026-10-20
   title: Search and Planning
   description: 
   hw:
     -
       title: "Homework 3: Creating Sabre Problems"
       percentage: 10%
-      due_date: 2026
+      due_date: 2026-10-20
       url: #planning/sabre.html
   lessons:
     - 
@@ -478,8 +478,8 @@
 
 -
   module_number: 4
-  start_date: 2026
-  end_date: 2026
+  start_date: 2026-10-22
+  end_date: 2026-11-05
   title: Commonsense Reasoning and Schemas
   description:
   lessons:
@@ -642,12 +642,12 @@
     -
       title: "Homework 4: COMET-ATOMIC Schema"
       percentage: 10%
-      due_date: 2026
+      due_date: 2026-11-05
       url: #knowledge-base/comet.html
 -
   module_number: 5
-  start_date: 2026
-  end_date: 2026
+  start_date: 2026-11-10
+  end_date: 2026-11-24
   title: Dialog and Agents
   description: 
   lessons:
@@ -770,9 +770,9 @@
                                  
   hw:
     -
-      title: "Homework 5"
+      title: "Homework 5: Consistent Personas"
       percentage: 10%
-      due_date: 2026
+      due_date: 2026-11-19
       url: 
          
           
