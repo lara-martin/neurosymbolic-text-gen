@@ -7,13 +7,13 @@ title: Prompting and Fine-tuning
 type: Homework
 number: 1
 active_tab: homework
-release_date: 2025-09-15
+release_date: 2026-08-25
 materials:
    -
      name: hw1.ipynb
-     url: https://laramartin.net/interactive-fiction-class/homeworks/generating-descriptions/hw1.ipynb
-due_date: 2025-10-10 23:59:00EST
-submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7963042_1?courseId=_96140_1&gradeitemView=details
+     url: https://laramartin.net/neurosymbolic-text-gen/homeworks/generating-descriptions/hw1.ipynb
+due_date: 2026-09-10 23:59:00EST
+submission_link: 
 readings:
   - 
     title: OpenAI API Documentation
