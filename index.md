@@ -118,8 +118,8 @@ We will also be using Blackboard for assignment submissions & grades, and this c
   <thead>
     <tr>
       <th>Assignment</th> 
-      <th>491 (undergrad)</th>
-      <th>691 (grad)</th>
+      <th>412 (undergrad)</th>
+      <th>612 (grad)</th>
     </tr>
   </thead>
   <tbody>
