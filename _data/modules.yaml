@@ -7,9 +7,7 @@
   lessons:
     - 
       title: Intro to the Class & Neurosymbolic AI
-      video: 
-      length: 
-      slides: 
+      slides: slides/26-08-25_intro.pdf
       readings:
       optional:
 
@@ -175,7 +173,7 @@
   hw:
     -
       title: "Homework 1: Prompting and Fine-tuning"
-      url: #generating-descriptions/light.html
+      url: generating-descriptions/light.html
       percentage: 10%
       due_date: 2026-09-10
 
@@ -309,12 +307,6 @@
   end_date: 2026-10-20
   title: Search and Planning
   description: 
-  hw:
-    -
-      title: "Homework 3: Creating Sabre Problems"
-      percentage: 10%
-      due_date: 2026-10-20
-      url: #planning/sabre.html
   lessons:
     - 
       title: Search
@@ -473,7 +465,12 @@
       length:
       readings:
       presenters:
-
+  hw:
+    -
+      title: "Homework 3: Creating Sabre Problems"
+      percentage: 10%
+      due_date: 2026-10-20
+      url: #planning/sabre.html
 
 
 -
