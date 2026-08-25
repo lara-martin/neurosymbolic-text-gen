@@ -183,7 +183,7 @@
       title: "Homework 1: Prompting and Fine-tuning"
       url: generating-descriptions/light.html
       percentage: 10%
-      due_date: 2026-09-10
+      due_date: 2026-09-17
 
 -
   module_number: 2
@@ -306,7 +306,7 @@
     -
       title: "Homework 2: Guided Generation"
       percentage: 10%
-      due_date: 2026-09-29
+      due_date: 2026-10-06
       url: #plan-and-write/plan-and-write.html
 
 -
@@ -473,7 +473,7 @@
     -
       title: "Homework 3: Creating Sabre Problems"
       percentage: 10%
-      due_date: 2026-10-20
+      due_date: 2026-10-27
       url: #planning/sabre.html
 
 
@@ -639,7 +639,7 @@
     -
       title: "Homework 4: COMET-ATOMIC Schema"
       percentage: 10%
-      due_date: 2026-11-05
+      due_date: 2026-11-12
       url: #knowledge-base/comet.html
 -
   module_number: 5
@@ -769,7 +769,7 @@
     -
       title: "Homework 5: Consistent Personas"
       percentage: 10%
-      due_date: 2026-11-19
+      due_date: 2026-12-03
       url: 
          
           

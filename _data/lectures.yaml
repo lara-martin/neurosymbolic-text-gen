@@ -67,11 +67,6 @@
 -
   date: 2026-09-10
   title: Module 1 Paper Presentations
-  type: deadline
-  homework_due:
-    -
-      title: "HW1: Prompting and Fine-tuning"
-      url: generating-descriptions/light.html   
 
 
 -
@@ -88,7 +83,11 @@
 -
   date: 2026-09-17
   title: Understanding Procedures
-
+  type: deadline
+  homework_due:
+    -
+      title: "HW1: Prompting and Fine-tuning"
+      url: generating-descriptions/light.html
 
 -
   date: 2026-09-22
@@ -105,11 +104,6 @@
 -
   date: 2026-09-29
   title: Module 2 Paper Presentations
-  type: deadline
-  homework_due:
-    -
-      title: "HW2: Guided Generation"
-      url: #plan-and-write/plan-and-write.html 
          
 -
   date: 2026-10-01
@@ -132,7 +126,11 @@
   #  -
   #    title: Planning and PDDL
   #    url: planning/planning-and-pddl.html
-
+  type: deadline
+  homework_due:
+    -
+      title: "HW2: Guided Generation"
+      url: #plan-and-write/plan-and-write.html 
               
 -
   date: 2026-10-08
@@ -151,11 +149,6 @@
 -
   date: 2026-10-20
   title: Module 3 Paper Presentations
-  type: deadline
-  homework_due:
-    -
-      title: "HW3: Creating Sabre Problems"
-      url: #planning/sabre.html
 
 -
   date: 2026-10-22
@@ -170,6 +163,9 @@
     - 
       title: Final Project Milestone 2&colon; Project Progress
       url: #project/progress-report1.html  
+    -
+      title: "HW3: Creating Sabre Problems"
+      url: #planning/sabre.html
 -
   date: 2026-10-29
   title: Generating with Ontologies
@@ -185,11 +181,7 @@
 -
   date: 2026-11-05
   title: Module 4 Paper Presentations
-  type: deadline
-  homework_due:
-    - 
-      title: "HW4: COMET-ATOMIC Schema"
-      url: #knowledge-base/comet.html  
+
   
 -
   date: 2026-11-10
@@ -199,7 +191,11 @@
 -
   date: 2026-11-12
   title: Dialog Systems
-
+  type: deadline
+  homework_due:
+    - 
+      title: "HW4: COMET-ATOMIC Schema"
+      url: #knowledge-base/comet.html  
 
 
 -
@@ -219,11 +215,7 @@
 -
   date: 2026-11-24
   title: Module 5 Paper Presentations 
-  type: deadline
-  homework_due:
-    - 
-      title: "HW5: Consistent Personas"
-      url: 
+
  
 
 -
@@ -244,7 +236,11 @@
 -
   date: 2026-12-03
   title: Final Project In-Class Work
-  
+  type: deadline
+  homework_due:
+    - 
+      title: "HW5: Consistent Personas"
+      url:  
 
 -
   date: 2026-12-08

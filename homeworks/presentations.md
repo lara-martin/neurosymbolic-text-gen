@@ -6,7 +6,7 @@ title: Paper Presentation
 active_tab: homework
 release_date: 2026-08-25
 attribution: This homework was developed by Lara Martin and Chris Callison-Burch for their Interactive Fiction and Text Generation class (CIS 700-008) which was taught at the University of Pennsylvania in Spring 2022.
-submission_link: 
+submission_link: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8933008_1?gradeitemView=details
 
 ---
 
@@ -64,7 +64,7 @@ Your presentation should be about 8 minutes long + a few minutes for questions.
 |Summary| 4 points | High-level summary that explains the key points of the paper without going into unnecessary detail, but explains concepts that might be unknown to the class |
 |Strengths | 4 points | A few strengths of the paper compared to other work in the field|
 |Weaknesses | 4 points | A few weaknesses of the paper compared to other work in the field|
-|Extending | 4 points | Identify a few examples of how the work can be extended or adapted |
+|Extension | 4 points | Identify a few examples of how the work can be extended or adapted |
 |Length | 1 point | Presentation is less than or equal to 8 minutes long |
 |Slides| 3 points| Slides are organized/look professional, not overly wordy, and not just copying text from the paper|
 

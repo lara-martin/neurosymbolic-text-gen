@@ -12,7 +12,10 @@ materials:
    -
      name: hw1.ipynb
      url: https://laramartin.net/neurosymbolic-text-gen/homeworks/generating-descriptions/hw1.ipynb
-due_date: 2026-09-10 23:59:00EST
+   -
+     name: Prompting Slides
+     url: 
+due_date: 2026-09-17 23:59:00EST
 submission_link: 
 readings:
   - 
@@ -83,8 +86,8 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-In this homework, we're going to use OpenAI's API to generate text adventure game components automatically.
-Starting with the [prompting ideas from class](https://laramartin.net/interactive-fiction-class/slides/25-09-09_output.pdf) and [the prompting activity](https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7989301_1?courseId=_96140_1&gradeitemView=details), we'll show how to finetune models to perform specific tasks. In particular, you will generate room descriptions and item properties for text adventure games. 
+In this homework, we're going to use OpenAI's API to generate room and item descriptions automatically.
+Starting with the [prompting ideas from class]({{page.materials[1].url}}) and [the prompting activity](), we'll show you how to finetune models to perform specific tasks. In prticular, you will generate room descriptions and item properties, as if for [text adventure games](https://en.wikipedia.org/wiki/Text-based_game). 
 
 ## Learning Objectives
 For this assignment, we will check your ability to:
@@ -95,29 +98,29 @@ For this assignment, we will check your ability to:
 
 ## Getting Started
 
-If you haven't already done so, please complete the in-class activity on [prompting](https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7989301_1?courseId=_96140_1&gradeitemView=details). This will give you a good idea of how models should be prompted without dealing with code. You can also play around with the [OpenAI Playground](https://platform.openai.com/playground), but this will use up your credits.
+If you haven't already done so, please complete the in-class activity on [prompting](). This will give you a good idea of how models should be prompted without dealing with code. You can also play around with the [OpenAI Playground](https://platform.openai.com/playground), but this will use up your credits.
 
 ### Models
 For this homework, we are going to focus on GPT models since they are some of the most popular models. However, using these models does cost money so if you cannot afford to use these models, you are welcome to use a free **decoder-only** model such as [LLaMA-3](https://huggingface.co/docs/transformers/v4.56.1/model_doc/llama3), [Mistral](https://huggingface.co/docs/transformers/v4.56.1/model_doc/mistral), or [OLMo2](https://huggingface.co/docs/transformers/v4.56.1/model_doc/olmo2). You are welcome to use quantized models, but **please do not use reasoning models like Deepseek or o3 for this assignment**. 
 
-OpenAI has several different chat models.  You will probably see `gpt-5`, `gpt-5-mini`, and `gpt-5-nano` but there are older models as well.  These differ from each other in several dimensions:
+OpenAI has several different chat models.  You will probably see `gpt-5.6-sol`, `gpt-5.6-terra`, `gpt-5.6-luna`, and `gpt-5.5` but there are older models as well.  These differ from each other in several dimensions:
 * The context length (how long each message can be, and how many messages of history the conversation can have)
 * The number of model parameters (larger number of model parameters tend to result in higher quality output)
-* The speed of the model (`gpt-3.5-turbo` generates output more quickly)
-* The cost of the model (`o1-pro` is [expensive](https://openai.com/pricing))
+* The speed of the model (turbo models generate output more quickly)
+* The cost of the model (more recent models are usually [expensive](https://openai.com/pricing))
 * Whether OpenAI even lets you finetune it (OpenAI generally doesn't let you finetune newer models because they are already finetuned on other data)
 
 
 ## Prompt Design
 
-You can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4/5 can perform [few-shot learning](https://dl.acm.org/doi/abs/10.5555/3495724.3495883).  Given a few examples of a task, it can "learn" a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. Use some of the tips and tricks we [talked about in class](https://laramartin.net/interactive-fiction-class/slides/25-09-09_output.pdf).
+You can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4/etc. can perform [few-shot learning](https://dl.acm.org/doi/abs/10.5555/3495724.3495883).  Given a few examples of a task, it can "learn" a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. Use some of the tips and tricks we [talked about in class]({{page.materials[1].url}}).
 
 
 ## Fine-Tuning
 
-Next, we'll take a look at how to [fine-tune the OpenAI models](https://platform.openai.com/docs/guides/supervised-fine-tuning) to perform a specific task.  You can use few-shot learning when you have a few dozen training example, and you can use fine-tuning when you have several hundred examples. When we have a few hundred training examples, then it's not possible to fit them all into a prompt, since GPT* has a limit of the nubmer of tokens you can put in the prompt.  
+Next, we'll take a look at how to [fine-tune the OpenAI models](https://developers.openai.com/api/docs/guides/supervised-fine-tuning) to perform a specific task.  You can use few-shot learning when you have a few dozen training example, and you can use fine-tuning when you have several hundred examples. When we have a few hundred training examples, then it's not possible to fit them all into a prompt, since GPT* has a limit of the nubmer of tokens you can put in the prompt.  
 
-For your homework, you'll fine-tune GPT-4o-mini to generate different parts of text adventure games.  Specifically we'll train `gpt-4.1-nano-2025-04-14` to
+For your homework, you'll fine-tune GPT-4o-mini to generate different parts of text adventure games.  Specifically we'll finetune `gpt-4.1-nano-2025-04-14` to
 1. Generate descriptions of locations
 2. Predict an item's properties
 
@@ -134,9 +137,9 @@ Their data is called the LIGHT dataset (Learning in Interactive Games with Human
 
 ## Jupyter Notebook
 
-You will be working on this [Jupyter Notebook for Fine-Tuning/Prompting on LIGHT Enviroment Data]({{ site.baseurl }}/homeworks/generating-descriptions/hw1.ipynb), which you can run in your VS Code environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
+You will be working on this [Jupyter Notebook for Fine-Tuning/Prompting on LIGHT Enviroment Data]({{ site.baseurl }}/homeworks/generating-descriptions/hw1.ipynb), which you can run in your favorite coding environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
 
-In addition to working your way through the Jupyter Notebook, I recommend reading the [OpenAI documentation](https://platform.openai.com/docs/overview), and trying the examples in the [Playground](https://platform.openai.com/playground).
+In addition to working your way through the Jupyter Notebook, I recommend reading the [OpenAI API documentation](https://developers.openai.com/api/docs), and trying the examples in the [Chat Platform](https://platform.openai.com/chat). However, you will be implementing your prompts using the [OpenAI API](https://platform.openai.com/login).
 
 ## What to submit
 
