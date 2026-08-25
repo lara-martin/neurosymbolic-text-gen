@@ -34,7 +34,7 @@ This assignment is to measure your ability to...
 * find relevant articles to a given paper
 * extend techniques and methods to other tasks
 
-# Instructions
+## Instructions
 
 
 You are not allowed to use any LLMs or generative AI in any part of this assignment. If it seems like a model was used for understanding the papers or making the presentation, you may receive a zero on this assignment.
@@ -57,7 +57,7 @@ Your talk should include:
 
 Your presentation should be about 8 minutes long + a few minutes for questions.
 
-# Rubric
+## Rubric
 
 | Criteria | Possible Points| Description|
 |---------|-------------------|-------------|
@@ -69,11 +69,11 @@ Your presentation should be about 8 minutes long + a few minutes for questions.
 |Slides| 3 points| Slides are organized/look professional, not overly wordy, and not just copying text from the paper|
 
 
-# What to submit
+## What to submit
 
 1. [A Powerpoint (ppt or pptx) file or a link to where we can find the slides online (e.g., Google Slides).]({{page.submission_link}})
 
-# Tips for Finding Papers
+## Tips for Finding Papers
 
 * One easy way of finding related articles to a paper is to look at the paper's list of references.
 * If you can't find any articles that are relevant to what you need for this presentation, try looking online. 

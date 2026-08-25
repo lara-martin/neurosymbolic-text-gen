@@ -9,6 +9,14 @@
       title: Intro to the Class & Neurosymbolic AI
       slides: slides/26-08-25_intro.pdf
       readings:
+        -
+          title: "Neurosymbolic Artificial Intelligence (Why, What, and How)"
+          url: https://ieeexplore.ieee.org/abstract/document/10148662
+          authors: Amit Sheth, Kaushik Roy, Manas Gaur
+        -
+          title: "Neuro-symbolic artificial intelligence: a survey"
+          url: https://link.springer.com/article/10.1007/s00521-024-09960-z
+          authors: Bikram Pratim Bhuyan, Amar Ramdane-Cherif, Ravi Tomar, T. P. Singh 
       optional:
 
 
@@ -59,11 +67,11 @@
           url: https://dl.acm.org/doi/10.1145/3442188.3445922
           authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell
         -
-          title: "[Transformer paper] Attention is All You Need"
+          title: "Attention is All You Need"
           url: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
           authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin      
         -
-          title: "[GPT-2 paper] Language Models are Unsupervised Multitask Learners"
+          title: "Language Models are Unsupervised Multitask Learners"
           url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
           authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever    
         -
@@ -89,7 +97,7 @@
           url: https://openreview.net/pdf?id=rygGQyrFvH
           authors: Ari Holtzman, Jan Buys, Li Du, Maxwell Forbes, Yejin Choi       
         -
-          title: "[GPT-3 paper] Language Models are Few-Shot Learners"
+          title: "Language Models are Few-Shot Learners"
           url: https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
           authors: Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, et al.
         -
@@ -118,11 +126,11 @@
       slides: #slides/25-09-16_foundation-models.pdf 
       readings:
         -
-          title: "[word2vec paper] Efficient Estimation of Word Representations in Vector Space"
+          title: "Efficient Estimation of Word Representations in Vector Space"
           authors: Tomas Mikolov, Kai Chen, Greg Corrado, Jeffrey Dean
           url: https://arxiv.org/abs/1301.3781      
         -
-          title: "[FastText paper] Enriching Word Vectors with Subword Information"
+          title: "Enriching Word Vectors with Subword Information"
           authors: Piotr Bojanowski, Edouard Grave, Armand Joulin, Tomas Mikolov
           url: https://aclanthology.org/Q17-1010/
         -
@@ -130,7 +138,7 @@
           authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
           url: https://aclanthology.org/N19-1423/
         -
-          title: "[T5 paper] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+          title: "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
           url: https://jmlr.org/papers/volume21/20-074/20-074.pdf
           authors: Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu
       optional:      
@@ -406,10 +414,6 @@
           authors: Mihai Polceanu, Julie Porteous, Alan Lindsay, Marc Cavazza 
           url: https://ojs.aaai.org/index.php/AAAI/article/view/16747         
         -
-          title: "Want To Choose Your Own Adventure? Then First Make a Plan."
-          url: https://assets.pubpub.org/doldyzqc/CanadianAI2024_ChooseYourOwnAdventureStories_NSimon_Camera_Ready_Apr17-61716785652947.pdf
-          authors: Nisha Simon, Christian Muise
-        -
           title: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
           url: https://dl.acm.org/doi/10.1145/3649921.3656987
           authors: Yi Wang, Qian Zhou, David Ledo
@@ -534,9 +538,26 @@
       length:
       readings:
         -
-          title: Fiction, Non-Factuals, and the Principle of Minimal Departure
-          url: https://www.sciencedirect.com/science/article/pii/0304422X80900303
-          authors: Marie-Laure Ryan    
+          title: "(COMET-)ATOMIC2020: On Symbolic and Neural Commonsense Knowledge Graphs"
+          authors: Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi
+          url: https://ojs.aaai.org/index.php/AAAI/article/view/16792   
+        -
+          title: "NovaCOMET: Open Commonsense Foundation Models with Symbolic Knowledge Distillation"
+          authors: Peter West, Ronan Bras, Taylor Sorensen, Bill Lin, Liwei Jiang, Ximing Lu, Khyathi Chandu, Jack Hessel, Ashutosh Baheti, Chandra Bhagavatula, Yejin Choi
+          url: https://aclanthology.org/2023.findings-emnlp.80/
+        -
+          title: "GLUCOSE: GeneraLized and COntextualized Story Explanations"
+          authors: Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll
+          url: https://aclanthology.org/2020.emnlp-main.370/
+
+      optional:
+    
+    -
+      title: Generating with Ontologies
+      slides: #slides/25-11-04_neurosymbolic-kg.pdf 
+      video: 
+      length:
+      readings:
         -
           title: "VerbNet: Capturing English verb behavior, meaning and usage"
           authors:  Martha Palmer, Claire Bonial, Jena Hwang
@@ -545,25 +566,7 @@
          title:  "FrameNet II: Extended Theory and Practice"
          authors: Josef Ruppenhofer, Michael Ellsworth, Miriam R. L. Petruck, Christopher R. Johnson, Collin F. Baker, Jan Scheffczyk
          url: https://akb89.github.io/myValencer/framenet_book.pdf
-      optional:
-       -
-         title: "OntoNotes Release 5.0"
-         url: https://catalog.ldc.upenn.edu/LDC2013T19
-         authors:  	Ralph Weischedel, et al.      
-    -
-      title: Generating with Ontologies
-      slides: #slides/25-11-04_neurosymbolic-kg.pdf 
-      video: 
-      length:
-      readings:
-        -
-          title: "(COMET-)ATOMIC2020: On Symbolic and Neural Commonsense Knowledge Graphs"
-          authors: Jena D. Hwang, Chandra Bhagavatula, Ronan Le Bras, Jeff Da, Keisuke Sakaguchi, Antoine Bosselut, Yejin Choi
-          url: https://ojs.aaai.org/index.php/AAAI/article/view/16792    
-        -
-          title: "GLUCOSE: GeneraLized and COntextualized Story Explanations"
-          authors: Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll
-          url: https://aclanthology.org/2020.emnlp-main.370/
+
         -
           title: Guided Generation of Cause and Effect
           authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
@@ -572,12 +575,9 @@
           title: "What Happened? Leveraging VerbNet to Predict the Effects of Actions in Procedural Text"
           authors: Peter Clark, Bhavana Dalvi, Niket Tandon
           url: https://arxiv.org/abs/1804.05435
-        -
-          title: "NovaCOMET: Open Commonsense Foundation Models with Symbolic Knowledge Distillation"
-          authors: Peter West, Ronan Bras, Taylor Sorensen, Bill Lin, Liwei Jiang, Ximing Lu, Khyathi Chandu, Jack Hessel, Ashutosh Baheti, Chandra Bhagavatula, Yejin Choi
-          url: https://aclanthology.org/2023.findings-emnlp.80/
+
     -
-      title: Generating Ontologies
+      title: Generating Ontologies / World Tracking
       guest_speaker: 
       guest_url: 
       slides: #slides/25-11-06_ontologies.pdf 

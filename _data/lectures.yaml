@@ -48,6 +48,7 @@
   homework_due:
     -
       title: Grad Presentation Sign-up Due
+      url: presentations.html
  
 
 -
@@ -178,7 +179,7 @@
   type: no_lecture    
 -
   date: 2026-11-03
-  title:  Generating Ontologies
+  title:  Generating Ontologies / World Tracking
 
     
 -
