@@ -123,11 +123,11 @@ We will also be using Blackboard for assignment submissions & grades, and this c
     </tr>
   </thead>
   <tbody>
-  <tr> <td>Homework 1</td> <td> 10% </td><td> 10% </td></tr>
-  <tr> <td>Homework 2</td> <td> 10% </td><td> 10% </td></tr>
-  <tr> <td>Homework 3</td> <td> 10% </td><td> 10% </td></tr>
-  <tr> <td>Homework 4</td> <td> 10% </td><td> 10% </td></tr> 
-  <tr> <td>Homework 5</td> <td> 10% </td><td> 10% </td></tr> 
+  <tr> <td>Homework 1</td> <td> 11% </td><td> 11% </td></tr>
+  <tr> <td>Homework 2</td> <td> 11% </td><td> 11% </td></tr>
+  <tr> <td>Homework 3</td> <td> 11% </td><td> 11% </td></tr>
+  <tr> <td>Homework 4</td> <td> 11% </td><td> 11% </td></tr> 
+  <tr> <td>Homework 5</td> <td> 11% </td><td> 11% </td></tr> 
   <tr> <td>Project</td> <td> 30% </td><td> 30% </td></tr>
   <tr> <td>Knowledge Checks</td> <td> 15% </td><td> 5% </td></tr>
   <tr> <td>Paper Presentation</td> <td> - </td><td> 10% </td></tr>
