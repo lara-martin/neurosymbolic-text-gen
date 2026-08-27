@@ -1,5 +1,5 @@
 ---
-title: CMSC 412/612 - Neurosymbolic and Text Generation - UMBC
+title: CMSC 412/612 - Neurosymbolic Text Generation - UMBC
 layout: default
 active_tab: main_page 
 ---
@@ -84,19 +84,19 @@ By the end of the course, you will be able to...
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 
 **TA**
-: []()
-: [](mailto:)
+: [Arya Honraopatil](https://aryahonraopatil.github.io/)
+: [ahonrao1@umbc.edu](mailto:ahonrao1@umbc.edu)
 
 **Office Hours**
 : Lara - Tuesdays from 3:15-5pm in ITE 342A or [by appointment](https://calendly.com/laramar/schedule)
-: - <!--Wednesdays from 2-4pm in ITE 340 or [by appointment](mailto:dta1@umbc.edu)-->
+: Arya - Wednesdays from 2-4pm in ITE 340 or [by appointment](mailto:ahonrao1@umbc.edu)
 
 ### Logistics
 **Time and Place**
 : Fall 2026, Tuesdays & Thursdays from 11:30am - 12:45pm ET in Janet & Walter Sondheim 108
 : First day of class is August 25, 2026
 : Last day of class is December 8, 2026
-: <!--Final project presentations will be held on December 11th from 10:30am - 12:30pm-->
+: Final project presentations will be held on December 17th from 10:30am - 12:30pm
 
 ### Course Materials
 There is no textbook for this course, but you will be reading academic articles and book sections that will be provided to you. You may be required to purchase a variety of materials including software and API credits. If any of these are prohibitively expensive for your budget, please let the instructor know.

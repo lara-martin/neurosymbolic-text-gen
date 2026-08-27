@@ -31,7 +31,7 @@
   lessons:
     - 
       title: Neural Language Models + Attention
-      slides: #slides/25-09-02_Attention.pdf 
+      slides: slides/26-08-27_attention.pdf 
       guest_speaker: 
       guest_url: 
       video: 
