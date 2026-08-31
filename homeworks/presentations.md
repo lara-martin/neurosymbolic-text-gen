@@ -66,7 +66,8 @@ Your presentation should be about 8 minutes long + a few minutes for questions.
 |Weaknesses | 4 points | A few weaknesses of the paper compared to other work in the field|
 |Extension | 4 points | Identify a few examples of how the work can be extended or adapted |
 |Length | 1 point | Presentation is less than or equal to 8 minutes long |
-|Slides| 3 points| Slides are organized/look professional, not overly wordy, and not just copying text from the paper|
+|Quality| 1 point | Presentation is polished|
+|Slides| 1 points| Slides are organized/look professional, not overly wordy, and not just copying text from the paper|
 
 
 ## What to submit
