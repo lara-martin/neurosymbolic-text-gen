@@ -20,9 +20,9 @@
   date: 2026-09-01
   title: Transformers
   activities:
-    #-
-    #  title: Visualizing Attention 
-    #  url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7981860_1?courseId=_96140_1&gradeitemView=details #Visualizing_Attention_with_BertViz.ipynb
+    -
+      title: Visualizing Attention 
+      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932169_1?gradeitemView=details
     #-
     #  title: (Optional) Transformers Tutorial
     #  url: transformer_tutorial.ipynb
