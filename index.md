@@ -87,6 +87,10 @@ By the end of the course, you will be able to...
 : [Arya Honraopatil](https://aryahonraopatil.github.io/)
 : [ahonrao1@umbc.edu](mailto:ahonrao1@umbc.edu)
 
+**Grader**
+: Shaswati Saha
+: [ssaha3@umbc.edu](mailto:ssaha3@umbc.edu) -- grading questions only
+
 **Office Hours**
 : Lara - Tuesdays from 3:15-5pm in ITE 342A or [by appointment](https://calendly.com/laramar/schedule)
 : Arya - Wednesdays from 2-4pm in ITE 340 or [by appointment](mailto:ahonrao1@umbc.edu)
