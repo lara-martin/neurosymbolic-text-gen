@@ -123,7 +123,7 @@
           authors: Janelle Shane
     -
       title: Types of Foundation Models & Word Embeddings
-      slides: #slides/25-09-16_foundation-models.pdf 
+      slides: slides/26-09-08_foundation-models.pdf 
       readings:
         -
           title: "Efficient Estimation of Word Representations in Vector Space"
