@@ -170,12 +170,34 @@
 #          authors: Nick Walton/Latitude
       presenters:
         - 
-          #name: Ray Groshan
-          #paper:  Attention is All You Need
-          #authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
-          #link: https://papers.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
-          #year: 2017
-          #slides: presentations/Groshan-Attention-is-all-you-need.pdf  
+          name: Marzia Tahsin
+          paper: Language Models are Unsupervised Multitask Learners
+          authors: Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, Ilya Sutskever
+          link: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+          year: 2019
+          slides:
+        -
+          name: Ehizele Obinyan
+          paper: "On Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+          authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell
+          link: https://dl.acm.org/doi/abs/10.1145/3442188.3445922
+          year: 2021
+          slides:
+        -
+          name: Kaila Hoskins
+          paper: Attention is All You Need
+          authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+          link: https://dl.acm.org/doi/10.5555/3295222.3295349
+          year:  2017
+          slides:
+        -
+          name: Connor Silbiger
+          paper: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+          authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+          link: https://aclanthology.org/N19-1423/
+          year: 2019
+          slides:                    
+
         
       
   hw:
@@ -249,6 +271,10 @@
           title: "SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference"
           authors: Rowan Zellers, Yonatan Bisk, Roy Schwartz, Yejin Choi
           url: https://aclanthology.org/D18-1009/     
+        -
+          title: "Distilling Script Knowledge from Large Language Models for Constrained Language Planning"
+          authors: Siyu Yuan, Jiangjie Chen, Ziquan Fu, Xuyang Ge, Soham Shah, Charles Jankowski, Yanghua Xiao, Deqing Yang
+          url: https://aclanthology.org/2023.acl-long.236/
       
     - 
       title: Guided Generation
@@ -272,6 +298,10 @@
           title: "Towards Enhanced Immersion and Agency for LLM-based Interactive Drama"
           url: https://aclanthology.org/2025.acl-long.546/
           authors: Hongqiu Wu, Weiqi Wu, Tianyang Xu, Jiameng Zhang, Hai Zhao
+        -
+          title: "ThinkNote: Enhancing Knowledge Integration and Utilization of Large Language Models via Constructivist Cognition Modeling"
+          url: https://aclanthology.org/2026.findings-eacl.12/
+          authors: Zhipeng Xu, Zhenghao Liu, Yukun Yan, Shuo Wang, Shi Yu, Zheni Zeng, Chaojun Xiao, Zhiyuan Liu, Ge Yu, Chenyan Xiong
 
 
 
@@ -300,6 +330,34 @@
     -
       title: Module 2 Paper Presentations
       presenters:
+        -
+          name: David Majekodunmi
+          paper: What do Large Language Models Learn about Scripts?
+          authors: Abhilasha Sancheti, Rachel Rudinger
+          link: https://aclanthology.org/2022.starsem-1.1
+          year: 2022
+          slides:
+        -
+          name: Mayukha Sista
+          paper: Distilling Script Knowledge from Large Language Models for Constrained Language Planning
+          authors: Siyu Yuan, Jiangjie Chen, Ziquan Fu, Xuyang Ge, Soham Shah, Charles Jankowski, Yanghua Xiao, Deqing Yang
+          link: https://aclanthology.org/2023.acl-long.236/
+          year: 2023
+          slides:
+        -
+          name: Bhavya Sharma
+          paper: "ThinkNote: Enhancing Knowledge Integration and Utilization of Large Language Models via Constructivist Cognition Modeling"
+          authors: Zhipeng Xu, Zhenghao Liu, Yukun Yan, Shuo Wang, Shi Yu, Zheni Zeng, Chaojun Xiao, Zhiyuan Liu, Ge Yu, Chenyan Xiong
+          link: https://aclanthology.org/2026.findings-eacl.12/
+          year: 2026
+          slides:
+        -
+          name: Md Sakib Ul Rahman Sourove
+          paper: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+          authors: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela
+          link: https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html
+          year: 2020
+          slides:                                    
        
 
   hw:
@@ -459,7 +517,7 @@
         -
           title: "Hands-Free: Action Abstraction With Hierarchical Reinforcement Learning in Text-Based Games"
           url:  https://ieeexplore.ieee.org/abstract/document/10707323
-          authors: Anjie Zhu, Hongcai He, Yongjun Yang, Zetao Zheng, Jie Shao       
+          authors: Anjie Zhu, Hongcai He, Yongjun Yang, Zetao Zheng, Jie Shao   
           
         
     -
@@ -469,6 +527,28 @@
       length:
       readings:
       presenters:
+        -
+          name: Yash Saxena
+          paper: "MetaAct-RL: Training Language Models for Reasoning Through Meta-Action-Based Reinforcement Learning"
+          authors: Zhiheng Xi, Yuhui Wang, Yiwen Ding, Guanyu Li, Senjie Jin, Shichun Liu, Jixuan Huang, Dingwen Yang, Jiafu Tang, Boyang Hong, Junjie Ye, Shihan Dou, Ming Zhang, Jian Guan, Wei Wu, Rui Zheng, Tao Gui, Qi Zhang, Xuanjing Huang
+          link: https://ojs.aaai.org/index.php/AAAI/article/view/40694
+          year: 2026
+          slides:
+        -
+          name: Sai Satwika Reddy Kandula
+          paper: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
+          authors: Yi Wang, Qian Zhou, David Ledo
+          link: https://dl.acm.org/doi/10.1145/3649921.3656987
+          year: 2024
+          slides:
+        -
+          name: Shadab Hafiz Choudhury
+          paper: Pokémon Red via Reinforcement Learning
+          authors: Marco Pleines, Daniel Addis, David Rubinstein, Frank Zimmer, Mike Preuss, Peter Whidden
+          link: https://ieeexplore.ieee.org/abstract/document/11114399
+          year: 2025
+          slides:
+                                    
   hw:
     -
       title: "Homework 3: Creating Sabre Problems"
@@ -633,6 +713,34 @@
       video: 
       length:
       presenters:
+        -
+          name: DeMarko Fulcher
+          paper: "FrameNet II: Extended Theory and Practice"
+          authors: Josef Ruppenhofer, Michael Ellsworth, Miriam R. L. Petruck, Christopher R. Johnson, Collin F. Baker, Jan Scheffczyk
+          link: https://akb89.github.io/myValencer/framenet_book.pdf
+          year: 2016
+          slides:
+        -
+          name: Gregory Marinakis
+          paper: "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models"
+          authors: Alla Chepurova, Aydar Bulatov, Mikhail Burtsev, Yuri Kuratov
+          link: https://aclanthology.org/2026.eacl-long.388/
+          year: 2026
+          slides:
+        -
+          name: Aryan Damaraju
+          paper: "Event Pattern-Instance Graph: A Multi-Round Role Representation Learning Strategy for Document-Level Event Argument Extraction"
+          authors: Qizhi Wan, Tao Liu, Changxuan Wan, Rong Hu, Keli Xiao, Yuxin Shuai
+          link: https://aclanthology.org/2025.findings-acl.94/
+          year: 2025
+          slides:
+        -
+          name: Sree Nitya Kollu
+          paper: Guided Generation of Cause and Effect
+          authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
+          link: https://www.ijcai.org/Proceedings/2020/0502
+          year: 2020
+          slides:                                    
         
 
   hw:
@@ -764,6 +872,27 @@
       video: 
       length:
       presenters:
+        -
+          name: Keith Soehnlein
+          paper: "Large Language Models are Superpositions of All Characters: Attaining Arbitrary Role-play via Self-Alignment"
+          authors:
+          link: https://aclanthology.org/2024.acl-long.423/
+          year: 2024
+          slides:
+        -
+          name: Tirth Patel
+          paper: "Generative Personality Simulation via Theory-Informed Structured Interview"
+          authors:
+          link: https://aclanthology.org/2026.eacl-long.82/
+          year: 2026
+          slides:
+        -
+          name: Prashanth Reddy Pavudala
+          paper: "“I followed what felt right, not what I was told”: Autonomy, Coaching, and Recognizing Bias Through AI-Mediated Dialogue"
+          authors: Atieh Taheri, Hamza El Alaoui, Patrick Carrington, Jeffrey P Bigham
+          link: https://dl.acm.org/doi/10.1145/3772318.3791078
+          year: 2026
+          slides:                          
                                  
   hw:
     -
