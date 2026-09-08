@@ -59,6 +59,9 @@
   date: 2026-09-08
   title: Types of Foundation Models & Word Embeddings
   activities:
+    -
+      title: Prompting
+      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932170_1?gradeitemView=details
     #-
     #  title: Word Embeddings Poll
     #  url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7999446_1?courseId=_96140_1&gradeitemView=details
@@ -67,14 +70,8 @@
  
 
 
- 
 -
   date: 2026-09-10
-  title: Module 1 Paper Presentations
-
-
--
-  date: 2026-09-15
   title: Scripts and Events
   activities:
     #-
@@ -83,6 +80,11 @@
     #-
       #title: Script Facts Poll
       #url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_8002794_1?courseId=_96140_1&gradeitemView=details
+      
+      
+-
+  date: 2026-09-15
+  title: Module 1 Paper Presentations
 
 -
   date: 2026-09-17
@@ -189,12 +191,14 @@
   
 -
   date: 2026-11-10
-  title: Putting a Human in the Loop
+  title: No Class - At Conference
+  
 
      
 -
   date: 2026-11-12
-  title: Dialog Systems
+  title: No Class - At Conference
+  
   type: deadline
   homework_due:
     - 
@@ -204,7 +208,10 @@
 
 -
   date: 2026-11-17
-  title: Agent-based AI
+  title: Putting a Human in the Loop
+  
+  
+  
   #activities:
   #  -
   #    title: Characters and Quests
@@ -213,12 +220,14 @@
 
 -
   date: 2026-11-19
-  title: Personas and Roleplaying
+  title: Dialog Systems
+  
 
 
 -
   date: 2026-11-24
-  title: Module 5 Paper Presentations 
+  title: Personas and Roleplaying
+  
 
  
 
@@ -230,7 +239,7 @@
 
 -
   date: 2026-12-01
-  title: Final Project In-Class Work
+  title: Agent-based AI
   type: deadline
   homework_due:
     - 
@@ -239,7 +248,7 @@
       
 -
   date: 2026-12-03
-  title: Final Project In-Class Work
+  title: Module 5 Paper Presentations
   type: deadline
   homework_due:
     - 
