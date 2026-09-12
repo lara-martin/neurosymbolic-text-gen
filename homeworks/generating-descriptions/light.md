@@ -14,7 +14,10 @@ materials:
      url: https://laramartin.net/neurosymbolic-text-gen/homeworks/generating-descriptions/hw1.ipynb
    -
      name: Prompting Slides
-     url: 
+     url: https://laramartin.net/neurosymbolic-text-gen/slides/26-09-03_output.pdf
+   -
+     name: hw2-v2.ipynb
+     url: https://laramartin.net/neurosymbolic-text-gen/homeworks/generating-descriptions/hw1-v2.ipynb
 due_date: 2026-09-17 23:59:00EST
 submission_link: 
 readings:
@@ -87,18 +90,18 @@ You can download the materials for this assignment here:
 =============================================================
 
 In this homework, we're going to use OpenAI's API to generate room and item descriptions automatically.
-Starting with the [prompting ideas from class]({{page.materials[1].url}}) and [the prompting activity](), we'll show you how to finetune models to perform specific tasks. In prticular, you will generate room descriptions and item properties, as if for [text adventure games](https://en.wikipedia.org/wiki/Text-based_game). 
+Starting with the [prompting ideas from class]({{page.materials[1].url}}) and [the prompting activity](https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932170_1?gradeitemView=details), we'll show you how to finetune models to perform specific tasks. In prticular, you will generate room descriptions and item properties, as if for [text adventure games](https://en.wikipedia.org/wiki/Text-based_game). 
 
 ## Learning Objectives
 For this assignment, we will check your ability to:
 * Call APIs for few-shot prompting LLMs
-* Call APIs for finetuning LLMs
-* Setup data for finetuning
+~~* Call APIs for finetuning LLMs~~
+~~* Setup data for finetuning~~
 * Compare finetuned output to few-shot output of the same base model
 
 ## Getting Started
 
-If you haven't already done so, please complete the in-class activity on [prompting](). This will give you a good idea of how models should be prompted without dealing with code. You can also play around with the [OpenAI Playground](https://platform.openai.com/playground), but this will use up your credits.
+If you haven't already done so, please complete the in-class activity on [prompting](https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932170_1?gradeitemView=details). This will give you a good idea of how models should be prompted without dealing with code.
 
 ### Models
 For this homework, we are going to focus on GPT models since they are some of the most popular models. However, using these models does cost money so if you cannot afford to use these models, you are welcome to use a free **decoder-only** model such as [LLaMA-3](https://huggingface.co/docs/transformers/v4.56.1/model_doc/llama3), [Mistral](https://huggingface.co/docs/transformers/v4.56.1/model_doc/mistral), or [OLMo2](https://huggingface.co/docs/transformers/v4.56.1/model_doc/olmo2). You are welcome to use quantized models, but **please do not use reasoning models like Deepseek or o3 for this assignment**. 
@@ -116,13 +119,13 @@ OpenAI has several different chat models.  You will probably see `gpt-5.6-sol`, 
 You can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4/etc. can perform [few-shot learning](https://dl.acm.org/doi/abs/10.5555/3495724.3495883).  Given a few examples of a task, it can "learn" a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. Use some of the tips and tricks we [talked about in class]({{page.materials[1].url}}).
 
 
-## Fine-Tuning
+~~## Fine-Tuning~~
 
-Next, we'll take a look at how to [fine-tune the OpenAI models](https://developers.openai.com/api/docs/guides/supervised-fine-tuning) to perform a specific task.  You can use few-shot learning when you have a few dozen training example, and you can use fine-tuning when you have several hundred examples. When we have a few hundred training examples, then it's not possible to fit them all into a prompt, since GPT* has a limit of the nubmer of tokens you can put in the prompt.  
+~~Next, we'll take a look at how to [fine-tune the OpenAI models](https://developers.openai.com/api/docs/guides/supervised-fine-tuning) to perform a specific task.  You can use few-shot learning when you have a few dozen training example, and you can use fine-tuning when you have several hundred examples. When we have a few hundred training examples, then it's not possible to fit them all into a prompt, since GPT* has a limit of the nubmer of tokens you can put in the prompt. ~~ 
 
-For your homework, you'll fine-tune GPT-4o-mini to generate different parts of text adventure games.  Specifically we'll finetune `gpt-4.1-nano-2025-04-14` to
-1. Generate descriptions of locations
-2. Predict an item's properties
+~~For your homework, you'll fine-tune GPT-4o-mini to generate different parts of text adventure games.  Specifically we'll finetune `gpt-4.1-nano-2025-04-14` to~~
+~~1. Generate descriptions of locations~~
+~~2. Predict an item's properties~~
 
 ## Data
 
@@ -137,7 +140,8 @@ Their data is called the LIGHT dataset (Learning in Interactive Games with Human
 
 ## Jupyter Notebook
 
-You will be working on this [Jupyter Notebook for Fine-Tuning/Prompting on LIGHT Enviroment Data]({{ site.baseurl }}/homeworks/generating-descriptions/hw1.ipynb), which you can run in your favorite coding environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
+~~You will be working on this [Jupyter Notebook for Fine-Tuning/Prompting on LIGHT Enviroment Data]({{page.materials[0].url}}),~~ which you can run in your favorite coding environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
+**If you cannot finetune using OpenAI, use this notebook instead: [hw1-v2.ipynb]({{page.materials[2].url}})**
 
 In addition to working your way through the Jupyter Notebook, I recommend reading the [OpenAI API documentation](https://developers.openai.com/api/docs), and trying the examples in the [Chat Platform](https://platform.openai.com/chat). However, you will be implementing your prompts using the [OpenAI API](https://platform.openai.com/login).
 
@@ -146,20 +150,34 @@ In addition to working your way through the Jupyter Notebook, I recommend readin
 You should submit your completed Jupyter Notebook to [Blackboard]({{page.submission_link}}).  You can work in pairs.
 
 # Grading
+## V1
 <div class="alert alert-warning" markdown="1">
  * Run fine-tuning code for room descriptions (1 pt)
  * Fine-tune additional model for item properties
 	* Setup training data (5 pts)
-	* Finetune the model (5 pts)
+	* Finetune the model (4 pts)
 	* Call the model (7 pts, one per property)
  * Call the few-shot model for item properties
-	* Try multiple prompts (5 pts)
-	* Zero-shot, One-shot, and Five-shot prompts -- prompt, output pairs (6 pts)
+	* Zero-shot, One-shot, and Five-shot technique prompts -- prompt, output pairs (6 pts)
  * Evaluation 
-	* Implement precision and recall using scikit (2 pts)
-	* Run precision and recall over your fine-tuned item model (1 pt)
-	* Run precision and recall over your one-shot item model (1 pt)
+	* Implement precision and recall using scikit (3 pts)
+	* Run precision and recall over your fine-tuned item model, averaged across properties (1 pt)
+	* Run precision and recall over your one-shot item model, averaged across properties (1 pt)
 	* Comparison questions (6 pts)
+* Total = 34
+ </div>
+
+## V2
+<div class="alert alert-warning" markdown="1">
+ * Prompt the model for item properties
+	* Implement the retrieval of "shot" example items from the data for `get_n_items` (3 pts)
+	* Try multiple prompts, showing prompt-output pairs (10 pts)
+	* Setup final zero-shot, one-shot, five-shot, and other prompting technique prompts (8 pts)
+ * Evaluation 
+	* Implement precision and recall using scikit (3 pts)
+	* Run precision and recall over all 4 prompting techniques, averaged across properties (4 pt)
+	* Comparison questions (6 pts)
+* Total = 34
  </div>
  
  
