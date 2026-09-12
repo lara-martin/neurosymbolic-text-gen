@@ -95,9 +95,10 @@ Starting with the [prompting ideas from class]({{page.materials[1].url}}) and [t
 ## Learning Objectives
 For this assignment, we will check your ability to:
 * Call APIs for few-shot prompting LLMs
+* Experiment with various prompting techniques
 * ~~Call APIs for finetuning LLMs~~
 * ~~Setup data for finetuning~~
-* Compare finetuned output to few-shot output of the same base model
+* Compare model outputs using classification metrics
 
 ## Getting Started
 
