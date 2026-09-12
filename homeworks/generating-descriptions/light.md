@@ -95,8 +95,8 @@ Starting with the [prompting ideas from class]({{page.materials[1].url}}) and [t
 ## Learning Objectives
 For this assignment, we will check your ability to:
 * Call APIs for few-shot prompting LLMs
-~~* Call APIs for finetuning LLMs~~
-~~* Setup data for finetuning~~
+* ~~Call APIs for finetuning LLMs~~
+* ~~Setup data for finetuning~~
 * Compare finetuned output to few-shot output of the same base model
 
 ## Getting Started
@@ -119,13 +119,13 @@ OpenAI has several different chat models.  You will probably see `gpt-5.6-sol`, 
 You can design prompts to get GPT to do all sorts of suprising things.  For instance, GPT-3/4/etc. can perform [few-shot learning](https://dl.acm.org/doi/abs/10.5555/3495724.3495883).  Given a few examples of a task, it can "learn" a pattern very quickly and then be used for classification tasks.  It often times helps to tell the model what you want it to do. Use some of the tips and tricks we [talked about in class]({{page.materials[1].url}}).
 
 
-~~## Fine-Tuning~~
+## ~~Fine-Tuning~~
 
-~~Next, we'll take a look at how to [fine-tune the OpenAI models](https://developers.openai.com/api/docs/guides/supervised-fine-tuning) to perform a specific task.  You can use few-shot learning when you have a few dozen training example, and you can use fine-tuning when you have several hundred examples. When we have a few hundred training examples, then it's not possible to fit them all into a prompt, since GPT* has a limit of the nubmer of tokens you can put in the prompt. ~~ 
+~~Next, we'll take a look at how to [fine-tune the OpenAI models](https://developers.openai.com/api/docs/guides/supervised-fine-tuning) to perform a specific task.  You can use few-shot learning when you have a few dozen training example, and you can use fine-tuning when you have several hundred examples. When we have a few hundred training examples, then it's not possible to fit them all into a prompt, since GPT* has a limit of the nubmer of tokens you can put in the prompt.~~ 
 
 ~~For your homework, you'll fine-tune GPT-4o-mini to generate different parts of text adventure games.  Specifically we'll finetune `gpt-4.1-nano-2025-04-14` to~~
-~~1. Generate descriptions of locations~~
-~~2. Predict an item's properties~~
+1. ~~Generate descriptions of locations~~
+2. ~~Predict an item's properties~~
 
 ## Data
 
