@@ -7,9 +7,9 @@ title: Project Proposal
 type: Project Milestone
 number: 1
 active_tab: homework
-release_date: 2025-09-23
-due_date: 2025-10-17 23:59:00EST
-submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/_7963172_1/overview?courseId=_96140_1
+release_date: 2026-09-09
+due_date: 2026-10-01 23:59:00EST
+submission_link: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8946678_1?gradeitemView=details
 
 ---
 
@@ -58,14 +58,14 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-The project is a chance for you to delve into one of the topics we have covered in class. You can choose between two directions: creating a novel interactive experience or answering a research question. The final deliverable will a poster presentation and either a **demo** or a **paper**.
+The project is a chance for you to delve into some of the methods we have covered in class. You can choose between two directions: creating a novel interactive experience or answering a research question. The final deliverable will a poster presentation and either a **demo** or a **paper**.
 
 If you are trying to decide between multiple project ideas, or if you're struggling to come up with something, we highly encourage you to come to office hours and discuss it with Dr. Martin. She will be able to help you narrow down which ideas of yours are the most feasible + interesting.
 
 For this milestone, you will pick whether you are doing a demo or a paper and then write a project proposal that contains the following sections. Guiding questions are given to help you fill out each section.
 
 ## Demo: Build a novel interactive experience
-Use the techniques we have learned in class to build a novel interactive experience that involves generated text. While fine-tuning a large language model on a custom dataset or few-shot prompting your model could be a _component_ of your project, we are expecting something more involved than just this. Can you expand on the homeworks to build a text-based game that uses language models to make a novel and fun game experience? Can you incorporate elements of classical planning or dialogue systems into your generation? By the end of the semester, you should have a demo that runs either in a Python Notebook or on a website showcasing your interactive experience.
+Use the techniques we have learned in class to build a novel interactive experience that involves generated text. While fine-tuning a large language model on a custom dataset or few-shot prompting your model could be a _component_ of your project, we are expecting something more involved than just this. For example, can you incorporate elements of classical planning or dialogue systems into your generation? By the end of the semester, you should have a demo that runs either in a Python Notebook or on a website showcasing your interactive experience.
 
 Write a project proposal that includes the following sections:
 1. __Project Description__: What novel interactive experience do you propose to design? You're not stuck with whatever design decisions you make here, but this will be your starting point.
