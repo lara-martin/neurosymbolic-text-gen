@@ -8,7 +8,7 @@
   activities:
     -
       title: Examples of Symbolic Systems
-      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8944860_1?gradeitemView=details
+      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8944860_1
 
 -
   date: 2026-08-28
@@ -26,7 +26,7 @@
   activities:
     -
       title: Visualizing Attention 
-      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932169_1?gradeitemView=details
+      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932169_1
     #-
     #  title: (Optional) Transformers Tutorial
     #  url: transformer_tutorial.ipynb
@@ -61,7 +61,7 @@
   activities:
     -
       title: Prompting
-      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932170_1?gradeitemView=details
+      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932170_1
     #-
     #  title: Word Embeddings Poll
     #  url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7999446_1?courseId=_96140_1&gradeitemView=details
@@ -80,7 +80,10 @@
     #-
       #title: Script Facts Poll
       #url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_8002794_1?courseId=_96140_1&gradeitemView=details
-      
+    -
+      title: Word Embeddings and Script Poll
+      url:  https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932171_1
+     
       
 -
   date: 2026-09-15
@@ -89,6 +92,10 @@
 -
   date: 2026-09-17
   title: Understanding Procedures
+  activities:
+    -
+      title: Pros & Cons of Scripts Poll
+      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8966926_1
   type: deadline
   homework_due:
     -
