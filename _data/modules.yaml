@@ -277,8 +277,8 @@
           url: https://aclanthology.org/2023.acl-long.236/
       
     - 
-      title: Guided Generation
-      slides: #slides/25-09-30_guided-generation.pdf 
+      title: "Guided (Story) Generation"
+      slides: slides/26-09-22_guided-story-generation.pdf 
       video: 
       length:
       readings:
