@@ -7,13 +7,13 @@ title: Guided Generation
 type: Homework
 number: 2
 active_tab: homework
-release_date: 2026-09-23
+release_date: 2026-09-22
 materials:
    -
      name: hw2.ipynb
      url: {{ site.baseurl }}/homeworks/plan-and-write/hw2.ipynb
 due_date: 2026-10-06 23:59:00EST
-submission_link: 
+submission_link: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932082_1
 readings:
   -
     title: "Plan-And-Write: Towards Better Automatic Storytelling"
@@ -22,13 +22,6 @@ readings:
     year: 2019
     type: paper
     url: https://ojs.aaai.org/index.php/AAAI/article/view/4726
-  -
-    title: "Mistral 7B"
-    authors: Albert Q. Jiang, et al.
-    venue: arXiv
-    year: 2023
-    type: paper
-    url: https://arxiv.org/abs/2310.06825
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -168,6 +161,7 @@ to [Blackboard]({{page.submission_link}}).  You can work in pairs.
  * Generate test stories (4 pts, 2 pts per condition)
  * Write functions for BLEU and ROUGE (4 pts, 2 pts each)
  * Analysis (12 pts)
+ * Total = 36 pts
  </div>
  
  
