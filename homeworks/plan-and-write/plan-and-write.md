@@ -11,7 +11,7 @@ release_date: 2026-09-22
 materials:
    -
      name: hw2.ipynb
-     url: {{ site.baseurl }}/homeworks/plan-and-write/hw2.ipynb
+     url: "{{ site.baseurl }}/homeworks/plan-and-write/hw2.ipynb"
 due_date: 2026-10-06 23:59:00EST
 submission_link: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932082_1
 readings:
