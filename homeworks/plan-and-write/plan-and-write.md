@@ -22,6 +22,18 @@ readings:
     year: 2019
     type: paper
     url: https://ojs.aaai.org/index.php/AAAI/article/view/4726
+  -
+    title: "Bleu: a Method for Automatic Evaluation of Machine Translation"
+    authors: Kishore Papineni, Salim Roukos, Todd Ward, Wei-Jing Zhu
+    venue: ACL
+    year: 2002
+    url: https://aclanthology.org/P02-1040/
+  -
+    title: "ROUGE: A Package for Automatic Evaluation of Summaries"
+    authors: Chin-Yew Lin
+    venue: Text Summarization Branches Out
+    year: 2004
+    url: https://aclanthology.org/W04-1013/
 ---
 
 <!-- Check whether the assignment is ready to release -->
