@@ -11,13 +11,13 @@ release_date: 2026-08-24
 materials:
    -
      name: hw1.ipynb
-     url: https://laramartin.net/neurosymbolic-text-gen/homeworks/generating-descriptions/hw1.ipynb
+     url: {{ site.baseurl }}/homeworks/generating-descriptions/hw1.ipynb
    -
      name: Prompting Slides
-     url: https://laramartin.net/neurosymbolic-text-gen/slides/26-09-03_output.pdf
+     url: {{ site.baseurl }}/slides/26-09-03_output.pdf
    -
-     name: hw2_v2.ipynb
-     url: https://laramartin.net/neurosymbolic-text-gen/homeworks/generating-descriptions/hw1_v2.ipynb
+     name: hw1_v2.ipynb
+     url: {{ site.baseurl }}/homeworks/generating-descriptions/hw1_v2.ipynb
 due_date: 2026-09-17 23:59:00EST
 submission_link: 
 readings:

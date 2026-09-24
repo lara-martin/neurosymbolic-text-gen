@@ -7,13 +7,13 @@ title: Guided Generation
 type: Homework
 number: 2
 active_tab: homework
-release_date: 2025-10-15
+release_date: 2026-09-23
 materials:
    -
      name: hw2.ipynb
-     url: https://laramartin.net/interactive-fiction-class/homeworks/plan-and-write/hw2.ipynb
-due_date: 2025-10-29 23:59:00EST
-submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7963044_1?courseId=_96140_1&gradeitemView=details
+     url: {{ site.baseurl }}/homeworks/plan-and-write/hw2.ipynb
+due_date: 2026-10-06 23:59:00EST
+submission_link: 
 readings:
   -
     title: "Plan-And-Write: Towards Better Automatic Storytelling"
@@ -73,53 +73,49 @@ You can download the materials for this assignment here:
 =============================================================
 
 Now that you know how to prompt an LLM from HW1, we will be using some guided story generation techniques from Module 2.
-In this homework, you will be following a generation pipeline inspired by the [Plan-and-Write system](https://ojs.aaai.org/index.php/AAAI/article/view/4726). In their work, they generated keywords from a title and then generated a story from the keywords. They tried both dynamic and static schemas to integrate the planning into their generation pipeline. This homework will focus on the "static" schema but use a pre-trained LLM instead of their RNN model.
+In this homework, you will be following a generation pipeline inspired by the [Plan-and-Write system](https://ojs.aaai.org/index.php/AAAI/article/view/4726). In their work, they generated keywords from a title and then generated a story from the keywords. They tried both dynamic and static schemas to integrate the planning into their generation pipeline. This homework will focus on the "static" schema but use a finetuned LLM instead of their RNN model.
 
 
 
 ## Learning Objectives
 For this assignment, we will check your ability to:
-* Prompt an LLM to generate stories given varying amounts of context
+* Setup data for finetuning LLMs to generate stories given varying amounts of context
+* Finetune pretrained models
 * Implement NLP evaluation metrics using existing libraries
 * Compare the quality of guided vs unguided story generation
 * Determine the adequacy of automated metrics like BLEU and ROGUE for creative evaluation
 
 ## What to do
 ### Getting Started
-Like in the last homework, you will be using a [Python notebook]({{page.materials[0].url}}), but instead of using OpenAI's suite of models, we're going to use Mistral AI's [Mistral 7B model](https://arxiv.org/abs/2310.06825). Again, you can run in your local environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
-
-<!--
-<div class="alert alert-info">
-Important: You will need to get access to Llama-2 before running it! Once you log into your Hugging Face account, you will need to fill out the license agreement.
- </div>
-![Log in/sign up to share contact information and agree with community license agreement to get access to Llama-2](access.png)
--->
-
-You will be using a portion of the data from the original Plan-and-Write work. I have already setup the data in [the notebook]({{page.materials[0].url}}). You will be using the stories, their titles, and the keywords they extracted. And you will only be looking at 20 stories from the dataset.
+Like in the last homework, you will be using a [Python notebook]({{page.materials[0].url}}), but instead of using OpenAI's suite of models, we're going to use [Qwen3-0.6B](https://qwen.ai/blog?id=qwen3). Again, you can run in your local environment or upload it to [Google Colab](https://colab.research.google.com/) or [DeepNote](https://deepnote.com/) to do the assignment online.
 
 
+You will be using a portion of the data from the original Plan-and-Write work. I have already setup the dataset in [the notebook]({{page.materials[0].url}}). You will be using the stories, their titles, and the keywords that Yao et al. extracted from the sentences and formatting them to finetune Qwen.
 
-### 1) Generating new stories
+### 1) Setup the data
 
 In the notebook, you are given a series of functions that will retrieve the story data for you.
-* `load_data` will return a list of all of the data in the file.
+* `load_data` will return a list of all of the data in the file. You will most likely not need to call this yourself.
 * `get_story` will return a list of the sentences in the story.
 * `get_title` will return the title of a story from a given line.
 * `get_keywords` will return the keywords of a story from a given line. Note that there may be more than one keyword per sentence!
 
-I have taken 20 stories from the original dataset for you to work with.
+I have already divided up the data into a training split `train_stories` and testing split `test_stories`.
 
-You will be generating stories for all 20 prompts in two ways (40 generated stories in total):
+You will be setting up two datasets and finetuning a model for each:
 * Unconditioned: Given a title, generate a 5-sentence story
 * Conditioned: Given a title and keywords, generate a 5-sentence story where each keyword corresponds to a sentence in the story -- this will be similar to the method in the paper
 
-You are welcome to use any prompting techniques (e.g., zero-shot, few-shot, chain-of-thought). Like in HW1, it will be beneficial for you try multiple prompts until you get the best results, even if it's just changing the wording of the prompt. However, you are only required to show your final prompt for both conditioned and unconditioned generation.
+You are welcome to use any prompting techniques (e.g., zero-shot, few-shot, chain-of-thought). <!--Like in HW1, it will be beneficial for you try multiple prompts until you get the best results, even if it's just changing the wording of the prompt. However, you are only required to show your final prompt for both conditioned and unconditioned generation.-->
 
-<div class="alert alert-info">
-Note: If you are using few-shot prompting, use a story from outside of the 20 stories I gave you to evaluate on. I get the 20 examples from <code class="language-plaintext highlighter-rouge">reader</code> in the <code class="language-plaintext highlighter-rouge">load_data()</code> function. You can use a story from any other index outside of <code class="language-plaintext highlighter-rouge">[:20]</code> for your prompts.
-</div>
+### 2) Finetune two models
 
-### 2) Evaluate stories
+Now that your two datasets are ready, you will be using the [Supervised Fine-Tuning (SFT) Trainer through HuggingFace](https://huggingface.co/docs/trl/sft_trainer). Alternatively, you are welcome to use the [Unsloth integration](https://huggingface.co/docs/trl/unsloth_integration) since you will already be using Unsloth.
+
+You might want to save both models. If you are using Google Colab, you can do this by mounting Google Drive (sample code is in the notebook). If you are using Deepnote with the student plan, the models will be available the next time you log in if you save the model to your workspace.
+
+
+### 3) Generate & evaluate the stories
 
 You will evaluate the stories in a few different ways:
 a) BLEU - precision using n-grams
@@ -146,33 +142,32 @@ Important: The output from the decoder will be stored in <code class="language-p
 
 Keep adjusting the prompt until you can consistently generate 5-sentence stories, but if you've tried a bunch of things and are still unable to get it to produce 5 sentences, evaluate on whatever sentences it generates. You can "pad" the story with empty strings to compare against with BLEU/ROUGE.
 
-### 3) Analysis
+### 4) Analysis
 Please answer the following questions in a separate document and save it as a pdf. Each answer should be a few sentences long.
 
-1. Simply reading the generated stories: 
+1. Go through some of your generated stories from the testing set. By simply reading the generated stories: 
 	* a) What is the quality of the stories overall? (2 pts)
-	* b) How do the compare across the conditions? (2 pts)
+	* b) How do the compare across the conditions (controlled vs uncontrolled)? (2 pts)
 	* c) Which of the two conditions produced better stories? Why? (2 pts)
-2. What prompting techniques did you find work the best? (2 pts)
-3. Did the prompt need to be significantly altered to work well with the different inputs? Why? (2 pts)
-4. Higher BLEU and ROUGE scores mean better matches. Were there any interesting patterns that you can see with the BLEU and ROUGE scores? (2 pts)
-5. Did the BLEU/ROUGE correlate with your subjective analysis (just reading)? Why or why not? (2 pts)
-6. Are BLEU/ROUGE sufficient metrics for evaluating these stories? Why or why not? (2 pts)
+2. Higher BLEU and ROUGE scores mean better matches. Were there any interesting patterns that you can see with the BLEU and ROUGE scores? (2 pts)
+3. Did the BLEU/ROUGE correlate with your subjective analysis (just reading)? Why or why not? (2 pts)
+4. Are BLEU/ROUGE sufficient metrics for evaluating these stories? Why or why not? (2 pts)
 
 
 ## What to submit
 
 You should submit
 * your completed Python Notebook, and 
-* a pdf of your answers to the questions in part 3 (analysis)
+* a pdf of your answers to the questions in part 4 (analysis)
 to [Blackboard]({{page.submission_link}}).  You can work in pairs.
 
 # Grading
 <div class="alert alert-warning" markdown="1">
- * Generate stories using only titles (5 pts)
- * Generate stories using titles and keywords (5 pts)
- * Write functions for BLEU and ROUGE (4 pts)
- * Analysis (16 pts)
+ * Data setup (6 pts, 3 pts per condition) - two datasets are created (one for each condition) and they are made with a reasonable prompting strategy (e.g., not just listing the title)
+ * Finetune the models (10 pts, 5 pts per model) - complete code setup
+ * Generate test stories (4 pts, 2 pts per condition)
+ * Write functions for BLEU and ROUGE (4 pts, 2 pts each)
+ * Analysis (12 pts)
  </div>
  
  

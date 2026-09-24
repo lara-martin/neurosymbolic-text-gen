@@ -307,20 +307,36 @@
 
     -
       title: Retrieval-Augmented Generation
-      slides: #slides/25-10-02_RAG.pdf
+      slides: slides/26-09-24_rag.pdf
       readings:
         -
           title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
           authors: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela
           url: https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html
         -
-          title: "BERALL: Generating Retrieval-augmented State-based Interactive Fiction Games"
-          authors: Rachel Chambers, Naomi Tack, Eliot Pearson, Lara J. Martin, Francis Ferraro
-          url: https://wordplay-workshop.github.io/wordplay2024/pdfs/21.pdf
+          title: "RAG or Learning? Understanding the Limits of LLM Adaptation under Continuous Knowledge Drift in the Real World"
+          authors: Hanbing Liu, Lang Cao, Yang Li
+          url: https://aclanthology.org/2026.findings-acl.546/
         -
           title: "GROVE: A Retrieval-augmented Complex Story Generation Framework with A Forest of Evidence"
           authors: Zhihua Wen, Zhiliang Tian, Wei Wu, Yuxin Yang, Yanqi Shi, Zhen Huang, Dongsheng Li
           url: https://aclanthology.org/2023.findings-emnlp.262/ 
+        -
+          title: "REALM: retrieval-augmented language model pre-training"
+          authors: Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, Ming-Wei Chang
+          url: https://dl.acm.org/doi/abs/10.5555/3524938.3525306
+        -
+          title: Improving Language Models by Retrieving from Trillions of Tokens
+          authors: Sebastian Borgeaud, et al.
+          url: https://proceedings.mlr.press/v162/borgeaud22a.html
+        -
+          title: "Generalization through Memorization: Nearest Neighbor Language Models"
+          authors: Urvashi Khandelwal, Omer Levy, Dan Jurafsky, Luke Zettlemoyer, Mike Lewis
+          url: https://openreview.net/pdf?id=HklBjCEKvH
+        -
+          title: Active Retrieval Augmented Generation
+          authors: Zhengbao Jiang, Frank Xu, Luyu Gao, Zhiqing Sun, Qian Liu, Jane Dwivedi-Yu, Yiming Yang, Jamie Callan, Graham Neubig
+          url:   https://aclanthology.org/2023.emnlp-main.495/                            
       optional:
         -
           title: Speech and Language Processing, Chapter 11. Information Retrieval and Retrieval-Augmented Generation
