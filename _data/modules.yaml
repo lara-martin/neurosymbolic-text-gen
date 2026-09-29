@@ -352,28 +352,28 @@
           authors: Abhilasha Sancheti, Rachel Rudinger
           link: https://aclanthology.org/2022.starsem-1.1
           year: 2022
-          slides:
+          slides: presentations/Majekodunmi+LLMs-Scripts.pdf
         -
           name: Mayukha Sista
           paper: Distilling Script Knowledge from Large Language Models for Constrained Language Planning
           authors: Siyu Yuan, Jiangjie Chen, Ziquan Fu, Xuyang Ge, Soham Shah, Charles Jankowski, Yanghua Xiao, Deqing Yang
           link: https://aclanthology.org/2023.acl-long.236/
           year: 2023
-          slides:
+          slides: presentations/Mayukha-Sista_Distilling-Script.pdf
         -
           name: Bhavya Sharma
           paper: "ThinkNote: Enhancing Knowledge Integration and Utilization of Large Language Models via Constructivist Cognition Modeling"
           authors: Zhipeng Xu, Zhenghao Liu, Yukun Yan, Shuo Wang, Shi Yu, Zheni Zeng, Chaojun Xiao, Zhiyuan Liu, Ge Yu, Chenyan Xiong
           link: https://aclanthology.org/2026.findings-eacl.12/
           year: 2026
-          slides:
+          slides: presentations/Bhavya-THINKNOTE.pdf
         -
           name: Md Sakib Ul Rahman Sourove
           paper: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
           authors: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela
           link: https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html
           year: 2020
-          slides:                                    
+          slides: presentations/Sakib-RAG-for-NLP.pdf                           
        
 
   hw:
@@ -917,4 +917,15 @@
       due_date: 2026-12-03
       url: 
          
-          
+-
+  module_number: 6
+  start_date: 2026-11-10
+  end_date: 2026-11-10
+  title: Guest Lectures
+  description: 
+  lessons:
+    -
+      title: The Narrative Paradox is Still Alive
+      guest_speaker: Santiago Góngora
+      guest_url: https://sgongora27.github.io/
+              

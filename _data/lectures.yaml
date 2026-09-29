@@ -105,7 +105,7 @@
 -
   date: 2026-09-22
   title: "Guided (Story) Generation"
-  activities:
+  
     #-
     #  title: Guided Generation System Comparison
     #  url: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/Test/_8008326_1?courseId=_96140_1&gradeitemView=details&gradebookCategoryId=_24424743_1&assessmentSubtype=Assignment
@@ -113,6 +113,10 @@
 -
   date: 2026-09-24
   title: Retrieval-Augmented Generation
+  activities:
+    -
+      title: Finding RAG Details
+      url: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8975018_1
  
 -
   date: 2026-09-29
@@ -198,13 +202,16 @@
   
 -
   date: 2026-11-10
-  title: No Class - At Conference
+  title: The Narrative Paradox is Still Alive
+  
   
 
      
 -
   date: 2026-11-12
   title: No Class - At Conference
+  type: no_lecture
+  
   
   type: deadline
   homework_due:
