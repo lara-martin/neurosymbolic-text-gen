@@ -15,7 +15,7 @@ active_tab: lectures
 The lecture schedule will be updated as the term progresses. You can find more details under the <a href="{{ site.baseurl }}/modules.html">Modules</a> tab.
 </div>
 
-<table class="table table-striped">
+<table class="table table-striped" id="content">
   <thead>
     <tr>
       <th>Date</th> 

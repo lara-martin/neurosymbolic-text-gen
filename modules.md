@@ -10,6 +10,7 @@ active_tab: modules
 
 {% for module in site.data.modules %}<a href="#module{{module.module_number}}">[Module {{module.module_number}}]</a> {% endfor %}
 
+<div id="content"></div>
 
 {% for module in site.data.modules %}
 
@@ -24,6 +25,7 @@ active_tab: modules
 {% if module_start_date <= now and module_end_date >= now %}
 <a name="now"></a>
 {% endif %}
+
 <div id="module{{ module.module_number}}"></div>
 # Module {{ module.module_number}}: {{module.title}}
 
