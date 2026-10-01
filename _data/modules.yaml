@@ -392,7 +392,7 @@
   lessons:
     - 
       title: Search
-      slides: #slides/25-10-09_agents-search.pdf 
+      slides: slides/26-10-01_agents-search.pdf 
       video: 
       length:
       readings:     
