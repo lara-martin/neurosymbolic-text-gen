@@ -48,7 +48,7 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 
 
-# CMSC 412/612 - Neurosymbolic Text Generation at UMBC
+<h1 id="content"> CMSC 412/612 - Neurosymbolic Text Generation at UMBC</h1>
 
 ## Fall 2026
 
