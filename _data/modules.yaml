@@ -792,6 +792,7 @@
           title: "I Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons"
           url: https://aclanthology.org/2023.acl-long.624/
           authors: Pei Zhou, Andrew Zhu, Jennifer Hu, Jay Pujara, Xiang Ren, Chris Callison-Burch, Yejin Choi, Prithviraj Ammanabrolu
+         
           
       optional:
         -
@@ -804,7 +805,7 @@
           authors: Dan Jurafsky and James H. Martin
       
     -
-      title: Agent-based AI
+      title: Agent-based LLMs and Simulation
       slides: #slides/25-11-18_characters.pdf 
       video: 
       length:
@@ -812,7 +813,7 @@
         -
           title: Learning to Speak and Act in a Fantasy Text Adventure Game
           authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
-          url: https://aclanthology.org/D19-1062/
+          url: https://aclanthology.org/D19-1062/ 
         -
           title: Telling Stories through Multi-User Dialogue by Modeling Character Relations
           authors: Wai Man Si, Prithviraj Ammanabrolu, Mark O. Riedl
