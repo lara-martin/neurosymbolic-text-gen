@@ -8,6 +8,8 @@ active_tab: modules
 {% assign now = now | plus: 0 %}
 <!-- End create a HTML anchor for the most recent module -->
 
+# Modules
+
 {% for module in site.data.modules %}<a href="#module{{module.module_number}}">[Module {{module.module_number}}]</a> {% endfor %}
 
 <div id="content"></div>
@@ -27,7 +29,7 @@ active_tab: modules
 {% endif %}
 
 <div id="module{{ module.module_number}}"></div>
-# Module {{ module.module_number}}: {{module.title}}
+## Module {{ module.module_number}}: {{module.title}}
 
 <i>{{ module.start_date | date: "%A, %B %-d, %Y" }} to {{ module.end_date | date: "%A, %B %-d, %Y" }}</i>
 
@@ -35,7 +37,7 @@ active_tab: modules
 {{module.description}}
 
 {% if module.hw %} 
-## Homework
+### Homework
 {% capture this_year %}{{now | date: '%Y'}}{% endcapture %}
 <ul>
 {% for hw in module.hw %}
@@ -51,7 +53,7 @@ No homework for this module.
 
 
 {% for lesson in module.lessons %}
-## Lesson {{ forloop.index }}: {{lesson.title}}{% if lesson.slides %} [[Slides]]({{lesson.slides}}){% endif %}{%if lesson.video %} [[Video]]({{lesson.video}}){% endif %}
+### Lesson {{ forloop.index }}: {{lesson.title}}{% if lesson.slides %} [[Slides]]({{lesson.slides}}){% endif %}{%if lesson.video %} [[Video]]({{lesson.video}}){% endif %}
 {% if lesson.guest_speaker %} Guest Lecturer: {% if lesson.guest_url %}<a href="{{ lesson.guest_url }}">{{lesson.guest_speaker}}</a>{% else %} {{lesson.guest_speaker}}{% endif %}{% endif %}
 {% if lesson.guest_speaker2 %} and <a href="{{ lesson.guest_url2 }}">{{lesson.guest_speaker2}}</a>{% endif %}
 
