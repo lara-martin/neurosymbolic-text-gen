@@ -89,3 +89,7 @@
 
 
 a { color: #24557F; }
+
+.navbar-default .navbar-nav>li>a {
+	color: #545454;
+}

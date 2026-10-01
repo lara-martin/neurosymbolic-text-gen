@@ -10,12 +10,13 @@ active_tab: lectures
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
 <!-- End create a HTML anchor for the most recent lecture -->
 
+<h1 id="content">Schedule</h1>
 
 <div class="alert alert-info">
 The lecture schedule will be updated as the term progresses. You can find more details under the <a href="{{ site.baseurl }}/modules.html">Modules</a> tab.
 </div>
 
-<table class="table table-striped" id="content">
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Date</th> 

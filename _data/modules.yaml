@@ -39,7 +39,7 @@
       readings:       
         -
           title: "Sequence to Sequence Learning with Neural Networks"
-          url: https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf
+          url: https://dl.acm.org/doi/10.5555/2969033.2969173
           authors: Ilya Sutskever, Oriol Vinyals, Quoc V. Le
         -
           title: "Generating Sequences With Recurrent Neural Networks"
