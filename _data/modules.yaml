@@ -420,11 +420,6 @@
       video: 
       length:
       slides: slides/26-10-06_planning.pdf 
-      optional:
-        -
-          title: Camelot Virtual Environment
-          url: http://cs.uky.edu/~sgware/projects/camelot/v1-2/
-          authors: Narrative Intelligence Lab at the University of Kentucky
       readings:
         -
           title: The Story So Far on Narrative Planning
@@ -453,15 +448,7 @@
         -
           title: "Controlling narrative generation with planning trajectories: The role of constraints"
           authors: Julie Porteous, Marc Cavazza
-          url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints        
-        -
-          title: "Sabre: A Narrative Planner Supporting Intention and Deep Theory of Mind"
-          authors: Stephen G. Ware, Cory Siler
-          url: https://dl.acm.org/doi/abs/10.5555/3505520.3505533
-        -
-          title: "Glaive: A State-Space Narrative Planner Supporting Intentionality and Conflict"
-          authors: Stephen G. Ware, R. Michael Young
-          url: https://ojs.aaai.org/index.php/AIIDE/article/view/12712       
+          url: https://www.researchgate.net/publication/220920127_Controlling_Narrative_Generation_with_Planning_Trajectories_The_Role_of_Constraints              
         -
           title: Integrating Plot, Character and Natural Language Processing in the Interactive Drama Façade
           authors: Michael Mateas, Andrew Stern
@@ -480,9 +467,22 @@
           authors: Julie Porteous, João F. Ferreira, Alan Lindsay, Marc Cavazza 
           
     -
-      title: LLM-based Planning
-      slides: #slides/25-10-16_planning.pdf 
+      title: Sabre + Neural Planning
+      slides: slides/26-10-08_sabre+neural-planning.pdf
+      optional:
+        -
+          title: Camelot Virtual Environment
+          url: http://cs.uky.edu/~sgware/projects/camelot/v1-2/
+          authors: Narrative Intelligence Lab at the University of Kentucky
       readings:
+        -
+          title: "Sabre: A Narrative Planner Supporting Intention and Deep Theory of Mind"
+          authors: Stephen G. Ware, Cory Siler
+          url: https://dl.acm.org/doi/abs/10.5555/3505520.3505533
+        -
+          title: "Glaive: A State-Space Narrative Planner Supporting Intentionality and Conflict"
+          authors: Stephen G. Ware, R. Michael Young
+          url: https://ojs.aaai.org/index.php/AIIDE/article/view/12712 
         -
           title: Narrative Plan Generation with Self-Supervised Learning
           authors: Mihai Polceanu, Julie Porteous, Alan Lindsay, Marc Cavazza 
@@ -507,6 +507,10 @@
           title: "On the Limit of Language Models as Planning Formalizers"
           url: https://aclanthology.org/2025.acl-long.242/
           authors: Cassie Huang, Li Zhang
+        -
+          title: Provably Complete Generalized Planning with LLMs
+          url: https://arxiv.org/abs/2609.27105
+          authors: Katharina Stein, Chaahat Jain, Jörg Hoffmann, Alexander Koller
           
     -
       title: Reinforcement Learning
