@@ -151,7 +151,7 @@
               
 -
   date: 2026-10-08
-  title: LLM-based Planning
+  title: Sabre + Neural Planning
 
 -
   date: 2026-10-13
@@ -179,10 +179,10 @@
   homework_due:
     - 
       title: Final Project Milestone 2&colon; Project Progress
-      url: #project/progress-report1.html  
+      url: project/progress-report.html  
     -
       title: "HW3: Creating Sabre Problems"
-      url: #planning/sabre.html
+      url: planning/sabre.html
 -
   date: 2026-10-29
   title: Generating with Ontologies

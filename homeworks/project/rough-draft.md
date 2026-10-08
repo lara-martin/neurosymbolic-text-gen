@@ -77,7 +77,7 @@ In a separate document called `team#-supplement.pdf`, include:
 2. __System Diagram__: This might be in something formal like [UML](https://slickplan.com/blog/how-to-make-a-uml-diagram) or a more informal format, but it should include more details than your **Back End Architecture** diagram(s) from the previous milestone probably had.
 3. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do.
-4. __LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+4. __LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
@@ -100,9 +100,9 @@ Total: 29 points
 Submit the following to [Blackboard]({{page.submission_link}}):
 * The link to your repository.
 * Your video or a link to where your video is hosted.
-* `team#-supplement.pdf`
+* `group#-supplement.pdf`
 
-## Paper: Attempt to answer a research question about text generation or interactive fiction
+## Paper: Attempt to answer a research question about neurosymbolic text generation
 
 To help you, here are some example reports from previous classes:
 * [Example Report 1](example_report-2022-1.pdf)
@@ -150,10 +150,10 @@ Discussion and Conclusion sections will be added in the final deliverable.
 <!--8. __Conclusion__: In CS, this is often just a brief paragraph reminding people what the highlights of your paper were.-->
 9. __References__: Papers are cited correctly in the conference's format and are references in the main text.
 
-In a separate document called `team#-supplement.pdf`, write:
+In a separate document called `group#-supplement.pdf`, write:
 1. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do.
-2. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+2. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
@@ -175,8 +175,8 @@ Total: 29 points
 
 ### What to Submit
 Submit the following to [Blackboard]({{page.submission_link}}):
-* `team#-roughdraft.pdf` which is your draft.
-* `team#-supplement.pdf`, the supplemental material mentioned above.
+* `group#-roughdraft.pdf` which is your draft.
+* `group#-supplement.pdf`, the supplemental material mentioned above.
 
 
 

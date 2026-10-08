@@ -100,16 +100,16 @@ Your demo should:
 * Be posted on GitHub (or the repository site of your choice).
 * **Not** be edited after the deadline. We will be grading the last commit pushed before the deadline.
 
-In a separate document called `team#-supplement.pdf`, provide the
-__LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>) **or your poster**. If you did not use **any** generative text, please state so.
+In a separate document called `group#-supplement.pdf`, provide the
+__LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code or content for your poster**. <a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">Refer to the syllabus for guidance.</a> If you did not use **any** generated content, please state so.
 
 
 
 ### What to Submit
 Submit the following to [Blackboard]({{page.submission_link}}):
 * The link to your repository.
-* `team#-poster.pdf` which is your poster.
-* `team#-LLM.pdf`, the LLM use statement.
+* `group#-poster.pdf` which is your poster.
+* `group#-LLM.pdf`, the LLM use statement.
 
 
 
@@ -131,7 +131,7 @@ Total: 36 points
 </div>
 ---
 
-## Paper: Attempt to answer a research question about text generation or interactive fiction
+## Paper: Attempt to answer a research question about neurosymbolic text generation
 
 The final deliverable is the paper itself and a poster. The paper will be a continuation of the same one you've been building on.
 
@@ -182,16 +182,16 @@ Your paper should have the following components, in order:
 8. __Conclusion__: In CS, this is often just a brief paragraph reminding people what the highlights of your paper were.
 9. __References__: Papers are cited correctly in the conference's format and are references in the main text. (Do not number this section.)
 
-In a separate document called `team#-supplement.pdf`, provide the
-__LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>) **or your poster**. If you did not use **any** generative text, please state so.
+In a separate document called `group#-supplement.pdf`, provide the
+__LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your paper or content for your poster**. <a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">Refer to the syllabus for guidance.</a> If you did not use **any** generated content, please state so.
 
 
 
 ### What to Submit
 Submit the following to [Blackboard]({{page.submission_link}}):
-* `team#-finaldraft.pdf` which is your final paper.
-* `team#-poster.pdf` which is your poster.
-* `team#-LLM.pdf`, the LLM use statement.
+* `group#-finaldraft.pdf` which is your final paper.
+* `group#-poster.pdf` which is your poster.
+* `group#-LLM.pdf`, the LLM use statement.
 
 
 ### Grading

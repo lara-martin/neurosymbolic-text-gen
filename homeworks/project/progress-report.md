@@ -7,9 +7,9 @@ title: Project Progress
 type: Project Milestone
 number: 2
 active_tab: homework
-release_date: 2025-10-29
-due_date: 2025-11-14 23:59:00EST
-submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/_7963173_1/overview?courseId=_96140_1
+release_date: 2026-10-08
+due_date: 2026-10-27 23:59:00EST
+submission_link: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8946679_1?gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -61,11 +61,11 @@ For this milestone, you will describe your demo in more detail. The milestone af
 
 Write a report that includes the following sections:
 1. __Project Description__: What novel interactive experience do you propose to design? (This will collapse the __Project Description__ and __Related Work__ sections from your proposal into one section.)
-  - Do similar games/experiences exist to the one you propose to create? Give citations to them and explain how you think they relate to your project idea. What were your inspirations?
+  - Do similar applications or system exist to the one you propose to create? Give citations to them and explain how you think they relate to your project idea. What were your inspirations?
   - Include a repo link to your code (as it is so far) in this section.
 2. __Front End__: What will the user interact with?
-  - Give an example mockup of what the user experience will look like. (Also consider: will there be any graphics or AI-generated images?)
-  - Describe how you expect users to interact with the system. For example, if this is a game, what types of input will it take/will you be parsing commands?
+  - Give an example mock-up of what the user experience will look like.
+  - Describe how you expect users to interact with the system. What will they be doing?
 3. __Back End Architecture__: What does the overall architecture of your system look like? 
   - Describe how your architecture will work.
   - Give an example diagram of the backend system (the pipeline of components).
@@ -75,7 +75,7 @@ Write a report that includes the following sections:
   - What specific models will you be using? Will they be trained from scratch, finetuned, or just prompted?
 5. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do. You won't be graded on how far you've gotten in the project, but obviously the further you get, the less you'll have to scramble last-minute.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generated content, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
@@ -92,10 +92,10 @@ Total: 23 points
 </div>
 
 
-## Paper: Attempt to answer a research question about text generation or interactive fiction
+## Paper: Attempt to answer a research question about neurosymbolic text generation
 For this milestone, you will take the components of your proposal and begin to move them into more "paper-like" sections. You will also be adding in some more details.
 
-While not required at this stage, we highly recommend that you use LaTeX and a conference template. If you do not have a conference/workshop in mind, I recommend that you use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj).
+While not required until the next milestone, I recommend that you start using a conference template in LaTeX. If you do not have a conference/workshop in mind, I recommend that you use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj).
 
 Your paper should include the following sections:
 1. __Introduction__: What research question(s) or problem are you trying to solve? (This is where your problem definition from the __Project Description__ of your proposal goes.)
@@ -112,7 +112,7 @@ Your paper should include the following sections:
   - How do these experiments answer your research questions?
 5. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do. You won't be graded on how far you've gotten in the project, but obviously the further you get, the less you'll have to scramble last-minute.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generated content, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
@@ -130,7 +130,7 @@ Total: 23 points
 
 # What to Submit
 Submit the following to [Blackboard]({{page.submission_link}}):
-* `team#-milestone2.pdf` which contains your milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. 
+* A `group#-milestone2.pdf` with the sections mentioned above.
 
 
 

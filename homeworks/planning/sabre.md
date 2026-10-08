@@ -123,7 +123,7 @@ to use as reference.
 4. Implement the Sabre code within the `"""` giant string within the variable `problem`.
 5. Sabre might take several minutes to find a plan. **Tip: You might want to change the heuristic flags to relax the problem.**
 6. Iterate until Sabre can *solve* your problem. **Tip: To debug your problem once your syntax bugs are fixed, you can try changing your utility to a smaller problem until you know the paths are available. For example, set your utility to `location(Player) == GardenPath` if you're trying to make sure your walk action works.**
-Also, the deeper the goal is, the longer the planner is going to take to run.
+Also, the deeper the goal is, the longer the planner is going to take to run. 
 
 
 <div class="alert alert-info">
@@ -153,10 +153,10 @@ utility():
 and run that and collect & report that plan.
 	* Copy and paste each plan that you get (printed at the end of the output when you run the Java command) into a word document.
 2. (2 pts) How might the above plans compare to if someone was playing this game? How might the actions differ? (1-3 sentences)
-3. (2 pts) Change the `walk()` action to allow all characters to walk around, not just the Player. Try it with both of the utilities from  2.1.
+3. (2 pts) Change the `walk()` action to allow all characters to walk around, not just the Player. Try it with both of the utilities from  Question 1.
 	* Copy and paste the 2 resulting plans & share your impressions on how the story has changed.
 4. (2 pts) Does allowing the other characters to walk around result in a more interesting story? If so, why? If not, why not? (2-3 sentences)
-5. (2 pts) In addition to your new `walk()` action, change the `utility()` functions from 2.1 to be for any character, not just the Player.
+5. (2 pts) In addition to your new `walk()` action, change the `utility()` functions from Question 1 to be for any character, not just the Player.
   * Copy and paste the 2 resulting plans & share your impressions on how the story has changed.
 6. (2 pts) How might the output of a planner like Sabre be used to generate stories? What qualities might those stories have?
 

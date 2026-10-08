@@ -79,10 +79,10 @@ Write a project proposal that includes the following sections:
 4. __Related work__: Do similar games/experiences exist to the one you propose to create?
   - Give pointers to them and explain how you think they relate to your project idea.
 5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 
-## Paper: Attempt to answer a research question about text generation or interactive fiction
+## Paper: Attempt to answer a research question about neurosymbolic text generation
 In class, we have discussed multiple open questions related to text generation. Choose one of these questions and conduct experiments to attempt to answer the question. By the end of the semester, you should have an academic paper that describes the research question, the experiments you ran to try and answer it, and an analysis of the experimental results.
 
 <div class="alert alert-info">
@@ -101,7 +101,7 @@ Write a project proposal that includes the following sections:
 4. __Related work__: What previous research has been done on this research question?
   - Give citations to several research papers that you think are relevant along with short explanations of how you think they relate to your project idea. This can be a list with summaries of the papers for now and you will turn it into a proper Related Work section later.
 5. __Team members__: Give a list of the students who will participate in this project, and what contribution you expect each one to make to the project.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 # FAQ
 * Is there a page limit?
@@ -120,7 +120,7 @@ Write a project proposal that includes the following sections:
 
 # What to Submit
 Submit to Blackboard:
-* `team#-proposal.pdf` which is your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well.
+* `group#-proposal.pdf` which is your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well.
 
 
 # Grading
