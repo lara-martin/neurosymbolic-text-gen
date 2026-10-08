@@ -229,8 +229,10 @@ Dystopian Futures
 
 #### If you are using Copilot in the standalone app or online
 1. Download an example problem from [https://github.com/sgware/sabre-benchmarks/tree/main/problems](https://github.com/sgware/sabre-benchmarks/tree/main/problems) (or the problem you just wrote for Part I).
-
-
+2. Upload the example problem  to Copilot
+3. Write your prompt.
+4. Save the file and [run it through Sabre]({{page.materials[0].url}}).
+5. If it is close, count the number of edits you need to make to get it to run. If it's pretty far off from what you wanted, generate it again.
 
 
 ### What to submit for Part 3
