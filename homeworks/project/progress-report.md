@@ -36,6 +36,10 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 <div class="alert alert-info">
 This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+<br><br>
+Please reacquaint yourself with the <a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai">course's text generation policy</a>.
+<br>
+And then <a href="{{page.submission_link}}">submit your pdf here</a>.
 </div>
 
 {% if page.materials %}

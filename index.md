@@ -93,7 +93,7 @@ By the end of the course, you will be able to...
 
 **Office Hours**
 : Lara - Tuesdays from 3:15-5pm in ITE 342A or [by appointment](https://calendly.com/laramar/schedule)
-: Arya - Wednesdays from 2-4pm in ITE 340 or [by appointment](mailto:ahonrao1@umbc.edu)
+: Arya - Wednesdays from 2-4pm on [WebEx](https://umbc.webex.com/meet/ahonrao1) or [by appointment](mailto:ahonrao1@umbc.edu)
 
 ### Logistics
 **Time and Place**
