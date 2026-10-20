@@ -169,6 +169,13 @@
 #          url: https://play.aidungeon.io/
 #          authors: Nick Walton/Latitude
       presenters:
+        -
+          name: Kaila Hoskins
+          paper: Attention is All You Need
+          authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+          link: https://dl.acm.org/doi/10.5555/3295222.3295349
+          year:  2017
+          slides: "presentations/Kaila Hoskins - Attention Is All You Need.pdf"
         - 
           name: Marzia Tahsin
           paper: Language Models are Unsupervised Multitask Learners
@@ -177,27 +184,19 @@
           year: 2019
           slides: "presentations/Marzia Tahsin - Language Models are Unsupervised Multitask Learners.pdf"
         -
-          name: Ehizele Obinyan
-          paper: "On Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
-          authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell
-          link: https://dl.acm.org/doi/abs/10.1145/3442188.3445922
-          year: 2021
-          slides: "presentations/Ehizele Obinyan - On the Dangers of Stochastic Parrots_ Can Language Models Be Too Big_.pdf"
-        -
-          name: Kaila Hoskins
-          paper: Attention is All You Need
-          authors: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
-          link: https://dl.acm.org/doi/10.5555/3295222.3295349
-          year:  2017
-          slides: "presentations/Kaila Hoskins - Attention Is All You Need.pdf"
-        -
           name: Connor Silbiger
           paper: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
           authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
           link: https://aclanthology.org/N19-1423/
           year: 2019
           slides: presentations/Connor+Silbiger+BERT.pdf              
-
+        -
+          name: Ehizele Obinyan
+          paper: "On Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+          authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell
+          link: https://dl.acm.org/doi/abs/10.1145/3442188.3445922
+          year: 2021
+          slides: "presentations/Ehizele Obinyan - On the Dangers of Stochastic Parrots_ Can Language Models Be Too Big_.pdf"
         
       
   hw:
@@ -347,6 +346,13 @@
       title: Module 2 Paper Presentations
       presenters:
         -
+          name: Md Sakib Ul Rahman Sourove
+          paper: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+          authors: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela
+          link: https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html
+          year: 2020
+          slides: presentations/Sakib-RAG-for-NLP.pdf    
+        -
           name: David Majekodunmi
           paper: What do Large Language Models Learn about Scripts?
           authors: Abhilasha Sancheti, Rachel Rudinger
@@ -367,13 +373,7 @@
           link: https://aclanthology.org/2026.findings-eacl.12/
           year: 2026
           slides: presentations/Bhavya-THINKNOTE.pdf
-        -
-          name: Md Sakib Ul Rahman Sourove
-          paper: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
-          authors: Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela
-          link: https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html
-          year: 2020
-          slides: presentations/Sakib-RAG-for-NLP.pdf                           
+                       
        
 
   hw:
@@ -548,26 +548,26 @@
       readings:
       presenters:
         -
-          name: Yash Saxena
-          paper: "MetaAct-RL: Training Language Models for Reasoning Through Meta-Action-Based Reinforcement Learning"
-          authors: Zhiheng Xi, Yuhui Wang, Yiwen Ding, Guanyu Li, Senjie Jin, Shichun Liu, Jixuan Huang, Dingwen Yang, Jiafu Tang, Boyang Hong, Junjie Ye, Shihan Dou, Ming Zhang, Jian Guan, Wei Wu, Rui Zheng, Tao Gui, Qi Zhang, Xuanjing Huang
-          link: https://ojs.aaai.org/index.php/AAAI/article/view/40694
-          year: 2026
-          slides:
-        -
           name: Sai Satwika Reddy Kandula
           paper: "StoryVerse: Towards Co-authoring Dynamic Plot with LLM-based Character Simulation via Narrative Planning"
           authors: Yi Wang, Qian Zhou, David Ledo
           link: https://dl.acm.org/doi/10.1145/3649921.3656987
           year: 2024
-          slides:
+          slides: presentations/Sai-StoryVerse.pdf
         -
           name: Shadab Hafiz Choudhury
           paper: Pokémon Red via Reinforcement Learning
           authors: Marco Pleines, Daniel Addis, David Rubinstein, Frank Zimmer, Mike Preuss, Peter Whidden
           link: https://ieeexplore.ieee.org/abstract/document/11114399
           year: 2025
-          slides:
+          slides: presentations/Shadab-PokemonRedwithRL.pdf
+        -
+          name: Yash Saxena
+          paper: "MetaAct-RL: Training Language Models for Reasoning Through Meta-Action-Based Reinforcement Learning"
+          authors: Zhiheng Xi, Yuhui Wang, Yiwen Ding, Guanyu Li, Senjie Jin, Shichun Liu, Jixuan Huang, Dingwen Yang, Jiafu Tang, Boyang Hong, Junjie Ye, Shihan Dou, Ming Zhang, Jian Guan, Wei Wu, Rui Zheng, Tao Gui, Qi Zhang, Xuanjing Huang
+          link: https://ojs.aaai.org/index.php/AAAI/article/view/40694
+          year: 2026
+          slides: presentations/MetaAct_RL_Presentation_Neurosymbolic_TextGeneration_Yash_Saxena.pdf
                                     
   hw:
     -
@@ -741,26 +741,26 @@
           year: 2016
           slides:
         -
-          name: Gregory Marinakis
-          paper: "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models"
-          authors: Alla Chepurova, Aydar Bulatov, Mikhail Burtsev, Yuri Kuratov
-          link: https://aclanthology.org/2026.eacl-long.388/
-          year: 2026
-          slides:
+          name: Sree Nitya Kollu
+          paper: Guided Generation of Cause and Effect
+          authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
+          link: https://www.ijcai.org/Proceedings/2020/0502
+          year: 2020
+          slides:      
         -
           name: Aryan Damaraju
           paper: "Event Pattern-Instance Graph: A Multi-Round Role Representation Learning Strategy for Document-Level Event Argument Extraction"
           authors: Qizhi Wan, Tao Liu, Changxuan Wan, Rong Hu, Keli Xiao, Yuxin Shuai
           link: https://aclanthology.org/2025.findings-acl.94/
           year: 2025
-          slides:
+          slides:    
         -
-          name: Sree Nitya Kollu
-          paper: Guided Generation of Cause and Effect
-          authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
-          link: https://www.ijcai.org/Proceedings/2020/0502
-          year: 2020
-          slides:                                    
+          name: Gregory Marinakis
+          paper: "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models"
+          authors: Alla Chepurova, Aydar Bulatov, Mikhail Burtsev, Yuri Kuratov
+          link: https://aclanthology.org/2026.eacl-long.388/
+          year: 2026
+          slides:                          
         
 
   hw:
