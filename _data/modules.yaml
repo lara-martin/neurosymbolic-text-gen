@@ -734,13 +734,6 @@
       length:
       presenters:
         -
-          name: DeMarko Fulcher
-          paper: "FrameNet II: Extended Theory and Practice"
-          authors: Josef Ruppenhofer, Michael Ellsworth, Miriam R. L. Petruck, Christopher R. Johnson, Collin F. Baker, Jan Scheffczyk
-          link: https://akb89.github.io/myValencer/framenet_book.pdf
-          year: 2016
-          slides:
-        -
           name: Sree Nitya Kollu
           paper: Guided Generation of Cause and Effect
           authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
@@ -753,7 +746,14 @@
           authors: Qizhi Wan, Tao Liu, Changxuan Wan, Rong Hu, Keli Xiao, Yuxin Shuai
           link: https://aclanthology.org/2025.findings-acl.94/
           year: 2025
-          slides:    
+          slides:   
+        -
+          name: DeMarko Fulcher
+          paper: "FrameNet Semantic Role Classification by Analogy"
+          authors: Van-Duy Ngo, Stergos Afantenos, Emiliano Lorini, Miguel Couceiro
+          link: https://aclanthology.org/2026.lrec-1.291/
+          year: 2026
+          slides: 
         -
           name: Gregory Marinakis
           paper: "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models"
