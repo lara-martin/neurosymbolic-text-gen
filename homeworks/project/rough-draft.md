@@ -7,9 +7,9 @@ title: Rough Draft
 type: Project Milestone
 number: 3
 active_tab: homework
-release_date: 2025-11-17
-due_date: 2025-12-03 23:59:00EST
-submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/_7963174_1/overview?courseId=_96140_1
+release_date: 2026-10-27
+due_date: 2026-12-01 23:59:00EST
+submission_link: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8946680_1?gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -39,7 +39,7 @@ This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{
 <br><br>
 Please reacquaint yourself with the <a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai">course's text generation policy</a>.
 <br>
-And then <a href="{{page.submission_link}}">submit your pdf here</a>.
+And then <a href="{{page.submission_link}}">submit your materials here</a>.
 </div>
 
 {% if page.materials %}
@@ -61,7 +61,7 @@ At this stage you will be starting to wrap things up. Again, be sure to read the
 
 
 ## Demo: Build a novel interactive experience
-You should have a semi-working system in place. For this deliverable, you will need to share a 5-10 minute video showing the various components of what you have working so far. Not everything needs to be completed. **You are allowed to have placeholders in the code for components that are incomplete.** For this reason, we are asking you to submit a video instead of having you write a report and us trying to run the code ourselves.
+You should have a semi-working system in place. For this deliverable, you will need to share a 5-10 minute video showing the various components of what you have working so far. Not everything needs to be completed. **You are allowed to have placeholders in the code for components that are incomplete.** For this reason, we are asking you to submit a video instead of having you write a report and us trying to run the code ourselves. **You are not allowed to use any AI to create this video.**
 
 
 Your video should include the following things:
@@ -82,7 +82,7 @@ In a separate document called `group#-supplement.pdf`, include:
 3. __System Diagram__: This might be in something formal like [UML](https://slickplan.com/blog/how-to-make-a-uml-diagram) or a more informal format, but it should include more details than your **Back End Architecture** diagram(s) from the previous milestone probably had.
 4. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do.
-5. __LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+5. __LLM Use Statement__: Describe exactly how you used LLMs/VLMs to generate **parts of your code, readme, or system diagram.** (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative models, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
@@ -142,6 +142,7 @@ Discussion and Conclusion sections will be added in the final deliverable.
 2. __Introduction__: What research question(s) or problem are you trying to solve?
   - Why this it worth researching?
   - What contributions does this work make? (i.e., What are you doing that's novel?) You might have to compare to other research.
+  - Include a link to your code repository, if you have one, in this section.
 3. __Related Work__: What previous research has been done on this research question?
   - I want you to do a deeper dive of the related work now. Find *at least five more papers* to add to the narrative you've written so far.
 4. __Methods__: What are you doing or making to address your research question(s)?
@@ -160,7 +161,7 @@ Discussion and Conclusion sections will be added in the final deliverable.
 In a separate document called `group#-supplement.pdf`, write:
 1. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do.
-2. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+2. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper or code (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative models, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">

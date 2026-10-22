@@ -586,7 +586,7 @@
   lessons:
     -
       title: Commonsense Reasoning
-      slides: #slides/25-10-28_commonsense.pdf 
+      slides: slides/26-10-22_commonsense.pdf 
       video: 
       length:
       readings:
@@ -632,7 +632,7 @@
           authors: David Gunning
           url: https://arxiv.org/abs/1810.07528                
     -
-      title: Neurosymbolic Knowledge Base Systems
+      title: Symbolic and Neurosymbolic Knowledge Base Systems
       slides: #slides/25-10-30_commonsense.pdf
       video: 
       length:
