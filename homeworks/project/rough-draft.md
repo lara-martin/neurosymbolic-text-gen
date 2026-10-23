@@ -161,7 +161,7 @@ Discussion and Conclusion sections will be added in the final deliverable.
 In a separate document called `group#-supplement.pdf`, write:
 1. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do.
-2. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper or code (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative models, please state so in this section.
+2. __LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your paper or code** (<a href="{{ site.baseurl }}/index.html#using-llms-or-generative-ai" aria-label="LLM course policy">refer to the syllabus for guidance</a>). If you did not use **any** generative models, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">

@@ -7,13 +7,13 @@ title: COMET-ATOMIC Schema
 type: Homework
 number: 4
 active_tab: homework
-release_date: 2025-11-17
-due_date: 2025-12-09 23:59:00EST
+release_date: 2026-10-27
+due_date: 2026-11-12 23:59:00EST
 materials:
     - 
         name: HW 4 Python Notebook
         url: hw4.ipynb
-submission_link: https://blackboard.umbc.edu/ultra/courses/_96140_1/outline/assessment/test/_7963046_1?courseId=_96140_1&gradeitemView=details
+submission_link: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932084_1?gradeitemView=details
 readings:
     -
       title: "(COMET-)ATOMIC-2020: On Symbolic and Neural Commonsense Knowledge Graphs"
@@ -27,6 +27,10 @@ readings:
       title: "COMET: Commonsense Transformers for Automatic Knowledge Graph Construction"
       authors: Antoine Bosselut, Hannah Rashkin, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz, and Yejin Choi
       url: https://aclanthology.org/P19-1470/
+    -
+      title: "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension"
+      authors: Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Veselin Stoyanov, Luke Zettlemoyer
+      url: https://aclanthology.org/2020.acl-main.703/
 ---
 
 <!-- Check whether the assignment is ready to release -->
