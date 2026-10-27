@@ -224,7 +224,7 @@
   homework_due:
     - 
       title: "HW4: COMET-ATOMIC Schema"
-      url: #knowledge-base/comet.html  
+      url: knowledge-base/comet.html  
 
 
 -
@@ -265,7 +265,7 @@
   homework_due:
     - 
       title: Project Milestone 3&colon; Rough Draft
-      url: #project/rough-draft.html
+      url: project/rough-draft.html
       
 -
   date: 2026-12-03
