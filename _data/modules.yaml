@@ -591,22 +591,6 @@
       length:
       readings:
         -
-          title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
-          authors: Robyn Speer, Joshua Chin, Catherine Havasi
-          url: https://dl.acm.org/doi/10.5555/3298023.3298212 
-        -
-          title: WordNet
-          authors: Christiane Fellbaum
-          url: https://link.springer.com/chapter/10.1007/978-90-481-8847-5_10   
-        -
-          title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
-          authors:  Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi 
-          url: https://ojs.aaai.org//index.php/AAAI/article/view/4160       
-        -
-          title: Common Sense Reasoning – From Cyc to Intelligent Assistant
-          authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard
-          url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
-        -
           title: "Commonsense Reasoning for Natural Language Understanding: A Survey of Benchmarks, Resources, and Approaches"
           authors: Shane Storks, Qiaozi Gao, Joyce Y. Chai
           url: https://arxiv.org/abs/1904.01172
@@ -649,12 +633,29 @@
           title: "GLUCOSE: GeneraLized and COntextualized Story Explanations"
           authors: Nasrin Mostafazadeh, Aditya Kalyanpur, Lori Moon, David Buchanan, Lauren Berkowitz, Or Biran, Jennifer Chu-Carroll
           url: https://aclanthology.org/2020.emnlp-main.370/
-
+        -
+          title: "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge"
+          authors: Robyn Speer, Joshua Chin, Catherine Havasi
+          url: https://dl.acm.org/doi/10.5555/3298023.3298212 
+        -
+          title: WordNet
+          authors: Christiane Fellbaum
+          url: https://link.springer.com/chapter/10.1007/978-90-481-8847-5_10   
+        -
+          title: "ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning"
+          authors:  Maarten Sap, Ronan Le Bras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, Hannah Rashkin, Brendan Roof, Noah A. Smith, Yejin Choi 
+          url: https://ojs.aaai.org//index.php/AAAI/article/view/4160       
+        -
+          title: Common Sense Reasoning – From Cyc to Intelligent Assistant
+          authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard
+          url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
       optional:
     
     -
-      title: Generating with Ontologies
+      title: TBD #Generating with Ontologies
       slides: #slides/25-11-04_neurosymbolic-kg.pdf 
+      guest_speaker: Manas Gaur
+      guest_url: https://manasgaur.github.io/
       video: 
       length:
       readings:
@@ -837,6 +838,8 @@
     -
       title: Personas and Roleplaying
       slides: #slides/25-12-04_roleplay.pdf
+      guest_speaker: Arya Honraopatil
+      guest_url: https://aryahonraopatil.github.io/
       readings:
         -
           title: Enhancing Persona Consistency for LLMs' Role-Playing using Persona-Aware Contrastive Learning
