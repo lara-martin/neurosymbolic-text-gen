@@ -649,6 +649,22 @@
           title: Common Sense Reasoning – From Cyc to Intelligent Assistant
           authors: Kathy Panton, Cynthia Matuszek, Douglas Lenat, Dave Schneider, Michael Witbrock, Nick Siegel, and Blake Shepard
           url: https://www.csee.umbc.edu/courses/graduate/691/spring13/01/papers/FromCycToIntelligentAssistant-IJHCS-LNAI3864.pdf
+        -
+          title: "VerbNet: Capturing English verb behavior, meaning and usage"
+          authors:  Martha Palmer, Claire Bonial, Jena Hwang
+          url: https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199842193.001.0001/oxfordhb-9780199842193-e-15    
+        -
+         title:  "FrameNet II: Extended Theory and Practice"
+         authors: Josef Ruppenhofer, Michael Ellsworth, Miriam R. L. Petruck, Christopher R. Johnson, Collin F. Baker, Jan Scheffczyk
+         url: https://akb89.github.io/myValencer/framenet_book.pdf
+        -
+          title: Guided Generation of Cause and Effect
+          authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
+          url: https://www.ijcai.org/Proceedings/2020/0502
+        -
+          title: "What Happened? Leveraging VerbNet to Predict the Effects of Actions in Procedural Text"
+          authors: Peter Clark, Bhavana Dalvi, Niket Tandon
+          url: https://arxiv.org/abs/1804.05435
       optional:
     
     -
@@ -659,29 +675,12 @@
       video: 
       length:
       readings:
-        -
-          title: "VerbNet: Capturing English verb behavior, meaning and usage"
-          authors:  Martha Palmer, Claire Bonial, Jena Hwang
-          url: https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199842193.001.0001/oxfordhb-9780199842193-e-15    
-        -
-         title:  "FrameNet II: Extended Theory and Practice"
-         authors: Josef Ruppenhofer, Michael Ellsworth, Miriam R. L. Petruck, Christopher R. Johnson, Collin F. Baker, Jan Scheffczyk
-         url: https://akb89.github.io/myValencer/framenet_book.pdf
 
-        -
-          title: Guided Generation of Cause and Effect
-          authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
-          url: https://www.ijcai.org/Proceedings/2020/0502
-        -
-          title: "What Happened? Leveraging VerbNet to Predict the Effects of Actions in Procedural Text"
-          authors: Peter Clark, Bhavana Dalvi, Niket Tandon
-          url: https://arxiv.org/abs/1804.05435
+
 
     -
-      title: Generating Ontologies / World Tracking
-      guest_speaker: 
-      guest_url: 
-      slides: #slides/25-11-06_ontologies.pdf 
+      title: Neurosymbolic Knowledge Bases and World Modeling
+      slides: slides/26-11-03_neurosymbolic-kbs-world-modeling.pdf
       video: 
       length:
       readings:
