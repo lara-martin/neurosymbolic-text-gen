@@ -739,28 +739,28 @@
           authors: Zhongyang Li, Xiao Ding, Ting Liu, J. Edward Hu, Benjamin Van Durme
           link: https://www.ijcai.org/Proceedings/2020/0502
           year: 2020
-          slides:      
+          slides:    presentations/Sree-Guided+Generation.pdf  
         -
           name: Aryan Damaraju
           paper: "Event Pattern-Instance Graph: A Multi-Round Role Representation Learning Strategy for Document-Level Event Argument Extraction"
           authors: Qizhi Wan, Tao Liu, Changxuan Wan, Rong Hu, Keli Xiao, Yuxin Shuai
           link: https://aclanthology.org/2025.findings-acl.94/
           year: 2025
-          slides:   
+          slides:   presentations/Aryan-EPIG_EAE_presentation.pdf  
         -
           name: DeMarko Fulcher
           paper: "FrameNet Semantic Role Classification by Analogy"
           authors: Van-Duy Ngo, Stergos Afantenos, Emiliano Lorini, Miguel Couceiro
           link: https://aclanthology.org/2026.lrec-1.291/
           year: 2026
-          slides: 
+          slides: presentations/CMSC_612_Grad_Presentation_DeMarko_Fulcher-1.pdf
         -
           name: Gregory Marinakis
           paper: "Wikontic: Constructing Wikidata-Aligned, Ontology-Aware Knowledge Graphs with Large Language Models"
           authors: Alla Chepurova, Aydar Bulatov, Mikhail Burtsev, Yuri Kuratov
           link: https://aclanthology.org/2026.eacl-long.388/
           year: 2026
-          slides:                          
+          slides:  presentations/Gregory+Marinakis-Wiktonic.pdf
         
 
   hw:
@@ -768,7 +768,7 @@
       title: "Homework 4: COMET-ATOMIC Schema"
       percentage: 10%
       due_date: 2026-11-12
-      url: #knowledge-base/comet.html
+      url: knowledge-base/comet.html
 -
   module_number: 5
   start_date: 2026-11-10

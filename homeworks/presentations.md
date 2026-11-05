@@ -11,7 +11,7 @@ submission_link: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/
 ---
 
 <div class="alert alert-info">
-This assignment is due 5PM EST the day before your presentation. 
+This assignment is due the day before your presentation. 
 </div>
 
 {% if page.materials %}
