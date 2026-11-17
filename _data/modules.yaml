@@ -808,32 +808,6 @@
       slides:
       readings:
     -
-      title: Agent-based LLMs and Simulation
-      slides: #slides/25-11-18_characters.pdf 
-      video: 
-      length:
-      readings:    
-        -
-          title: Learning to Speak and Act in a Fantasy Text Adventure Game
-          authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
-          url: https://aclanthology.org/D19-1062/ 
-        -
-          title: Telling Stories through Multi-User Dialogue by Modeling Character Relations
-          authors: Wai Man Si, Prithviraj Ammanabrolu, Mark O. Riedl
-          url: https://aclanthology.org/2021.sigdial-1.30/
-        -
-          title: "I love your chain mail! Making knights smile in a fantasy game world: Open-domain goal-oriented dialogue agents"
-          authors: Shrimai Prabhumoye, Margaret Li, Jack Urbanek, Emily Dinan, Douwe Kiela, Jason Weston, Arthur Szlam
-          url: https://arxiv.org/abs/2002.02878
-        -
-          title: "Dungeons and Dragons as a Dialogue Challenge for Artificial Intelligence"
-          authors: Chris Callison-Burch, Gaurav Singh Tomar, Lara J. Martin, Daphne Ippolito, Suma Bailis, David Reitter
-          url: https://aclanthology.org/2022.emnlp-main.637/
-        -
-          title: Towards Inter-character Relationship-driven Story Generation
-          authors: Anvesh Rao Vijjini, Faeze Brahman, Snigdha Chaturvedi
-          url: https://aclanthology.org/2022.emnlp-main.613
-    -
       title: Personas and Roleplaying
       slides: #slides/25-12-04_roleplay.pdf
       guest_speaker: Arya Honraopatil
@@ -887,7 +861,32 @@
           title: "Façade: An Experiment in Building a Fully-Realized Interactive Drama"
           authors: Michael Mateas and Andrew Stern
           url: assets/readings/Mateas_Stern-Facade.pdf    
-          
+    -
+      title: Agent-based LLMs and Simulation
+      slides: #slides/25-11-18_characters.pdf 
+      video: 
+      length:
+      readings:    
+        -
+          title: Learning to Speak and Act in a Fantasy Text Adventure Game
+          authors: Jack Urbanek, Angela Fan, Siddharth Karamcheti, Saachi Jain, Samuel Humeau, Emily Dinan, Tim Rocktäschel, Douwe Kiela, Arthur Szlam, Jason Weston
+          url: https://aclanthology.org/D19-1062/ 
+        -
+          title: Telling Stories through Multi-User Dialogue by Modeling Character Relations
+          authors: Wai Man Si, Prithviraj Ammanabrolu, Mark O. Riedl
+          url: https://aclanthology.org/2021.sigdial-1.30/
+        -
+          title: "I love your chain mail! Making knights smile in a fantasy game world: Open-domain goal-oriented dialogue agents"
+          authors: Shrimai Prabhumoye, Margaret Li, Jack Urbanek, Emily Dinan, Douwe Kiela, Jason Weston, Arthur Szlam
+          url: https://arxiv.org/abs/2002.02878
+        -
+          title: "Dungeons and Dragons as a Dialogue Challenge for Artificial Intelligence"
+          authors: Chris Callison-Burch, Gaurav Singh Tomar, Lara J. Martin, Daphne Ippolito, Suma Bailis, David Reitter
+          url: https://aclanthology.org/2022.emnlp-main.637/
+        -
+          title: Towards Inter-character Relationship-driven Story Generation
+          authors: Anvesh Rao Vijjini, Faeze Brahman, Snigdha Chaturvedi
+          url: https://aclanthology.org/2022.emnlp-main.613          
       
     -
       title: Module 5 Paper Presentations
