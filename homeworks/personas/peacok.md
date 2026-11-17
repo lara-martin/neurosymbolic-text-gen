@@ -19,6 +19,10 @@ readings:
       title: "PeaCoK: Persona Commonsense Knowledge for Consistent and Engaging Narratives"
       authors: Silin Gao, Beatriz Borges, Soyoung Oh, Deniz Bayazit, Saya Kanno, Hiromi Wakaki, Yuki Mitsufuji, and Antoine Bosselut
       url: https://aclanthology.org/2023.acl-long.362/
+    -
+      title: "Dialogue Natural Language Inference"
+      authors: Sean Welleck, Jason Weston, Arthur Szlam, and Kyunghyun Cho
+      url: https://aclanthology.org/P19-1363/
 
 ---
 
@@ -121,7 +125,7 @@ The notebook loads PeaCoK, keeps only valid distinctive facts, and builds a grap
 * **Q A.1 (4 pts)** Find bridges between personas.
   * **Do:** implement find_bridges() and most_connected_personas().
   * **Report:** your seed persona, its 3 most-connected personas, and the bridges for the best pair.
-* **Q A.2 (4 pts)** Generate persona frames for three original characters.
+* **Q A.2 (6 pts, 4 pts implementation + 2 pts answers)** Generate persona frames for three original characters.
   * **Do:** write three original characters as PeaCoK-style personas ("I am a ... who ..."). Implement build_attribute_prompt() and parse_attributes() so the model generates attributes for all five relations.
   * **Report:** the generated frames for all three characters. The notebook also retrieves a frame for each character from the most similar existing PeaCoK personas; include that frame for one character.
   * **Answer (3-4 sentences):** comparing the generated and retrieved frames for that character, which is more distinctive and which is more plausible? Did the model produce anything stereotyped or contradictory?
@@ -141,7 +145,7 @@ Submissions should be done on [Blackboard]({{page.submission_link}}).
 
 ## Grading
 <div class="alert alert-warning" markdown="1">
-* Task A - 10 points (Q A.1: 4, Q A.2: 4, Q A.3: 2)
+* Task A - 12 points (Q A.1: 4, Q A.2: 6, Q A.3: 2)
 * Task B - 
 </div>
 
