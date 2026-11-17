@@ -777,12 +777,8 @@
   description: 
   lessons:
     -
-      title: Putting a Human in the Loop
-      slides:
-      readings:
-    -
       title: Dialog Systems
-      slides: #slides/25-11-13_Dialog.pdf
+      slides: slides/26-11-17_dialog.pdf
       readings: 
         -
           title: "An agenda-based dialog management architecture for spoken language systems"
@@ -807,7 +803,10 @@
           title: "Speech and Language Processing, Chapter 25: Conversation and its Structure"
           url: https://web.stanford.edu/~jurafsky/slp3/25.pdf
           authors: Dan Jurafsky and James H. Martin
-      
+    -
+      title: Evaluating Generated Text
+      slides:
+      readings:
     -
       title: Agent-based LLMs and Simulation
       slides: #slides/25-11-18_characters.pdf 
