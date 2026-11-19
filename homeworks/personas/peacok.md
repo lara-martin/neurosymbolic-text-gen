@@ -91,7 +91,7 @@ Each fact is also labeled as **distinctive** (specific to this persona) or **gen
 
 You will do the following:
 * **Task A:** find bridges in PeaCoK, generate persona frames for three original characters, and connect them into an interconnected cast.
-* **Task B:** generate long dialogues from PersonaChat profiles with and without PeaCoK facts, measure consistency three ways, and decide whether PeaCoK helps.
+* **Task B:** generate long dialogues from PersonaChat profiles with and without PeaCoK facts, measure consistency two ways, and decide whether PeaCoK helps.
 
 ### Key Terms
 * **Persona frame:** a persona's facts grouped by the five PeaCoK relations.
@@ -105,9 +105,9 @@ All of the code for this homework is in HW5_Consistent_Personas.ipynb. You can o
 
 Everything is set up so that you just need to implement the code blocks that say `# TODO`. The notebook downloads the PeaCoK graph for you from the authors' [Hugging Face page](https://huggingface.co/datasets/Silin1590/PeaCoK), and most `TODO`s are followed by a check cell that tells you whether your code works.
 
-Everything in this homework is free. The notebook uses small open-weight models that you can use by creating an account on HuggingFace and creating a token (this is free). Download the models: Qwen2.5-Instruct for generation, MiniLM for sentence embeddings, DeBERTa for NLI, and Phi-3.5-mini-instruct as the judge (SmolLM2-1.7B-Instruct on CPU). It runs on CPU, but a free Colab T4 GPU is much faster (*Runtime* → *Change runtime type* → *T4 GPU*).
+Everything in this homework is free. The notebook uses small open-weight models that you can use by creating an account on HuggingFace and creating a token (this is free). Download the models: Qwen2.5-Instruct for generation, MiniLM for sentence embeddings, and DeBERTa for NLI. It runs on CPU, but a free Colab T4 GPU is much faster (*Runtime* → *Change runtime type* → *T4 GPU*).
 
-Each question below lists what to **Do** (code to write), what to **Report** (numbers, tables or plots), and what to **Answer** (a short written response).
+Each question below lists what to **Do** (code to write), what to **Report** (output in the form of numbers, etc), and what to **Answer** (a short written response).
 
 Important notes:
 * Do not use any paid API (OpenAI, Anthropic, Gemini, etc.).
@@ -178,6 +178,7 @@ Two metrics decide whether PeaCoK helps the LLM stay consistent: the contradicti
 You should submit the following:
 1. The completed notebook, with all outputs, containing your code for Task A and B.
 2. A PDF file with every **Answer** item from Task A and B.
+3. The dialogues.json file you will generate in Task B.
 
 Submissions should be done on [Blackboard]({{page.submission_link}}).
 
