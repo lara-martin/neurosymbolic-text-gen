@@ -12,8 +12,8 @@ due_date: 2026-12-03 23:59:00EST
 materials:
     - 
         name: HW 5 Python Notebook
-        url: hw5.ipynb
-submission_link: 
+        url: HW5_Consistent_Personas.ipynb
+submission_link: https://blackboard.umbc.edu/ultra/courses/_112447_1/assessment/test/_8932089_1
 readings:
     -
       title: "PeaCoK: Persona Commonsense Knowledge for Consistent and Engaging Narratives"
@@ -135,6 +135,44 @@ The notebook loads PeaCoK, keeps only valid distinctive facts, and builds a grap
 
 ### Task B: Does PeaCoK Help an LLM Stay Consistent?
 
+**Why this matters:** this task tests the paper's central claim on a LLM: adding PeaCoK persona knowledge makes a dialogue agent more consistent. The paper tested this with P²Bot, a trained dialogue model. You will use a free LLM (Qwen2.5-1.5B-Instruct) that plays both speakers in long self-play dialogues.
+
+Each dialogue runs twice, under two conditions:
+1) **Base:** each speaker gets its ConvAI2 PersonaChat profile, about 5 persona sentences.
+2) **PeaCoK:** each speaker gets the same profile plus up to 5 linked PeaCoK facts.
+
+**Scoring rule:** both conditions are scored against the original profile only. This way, the PeaCoK speaker doesn't get credit for repeating facts the base speaker never saw.
+
+Task B measures consistency two ways: contradicting the profile (Q B.2), and how much of the profile it actually expresses (Q B.3). Q B.4 brings the results together.
+
+#### Setup: Generate the paired dialogues (provided)
+
+This step is fully provided. Run it once, read a few dialogues, and keep the saved file.
+1. **Load the data.** The notebook loads 40 PersonaChat dialogues that the PeaCoK authors already linked to PeaCoK facts.
+2. **Run self-play.** For each dialogue, the model generates 12 turns under both conditions. Both conditions use the same opening line and your `SEED`, so the only difference is the PeaCoK facts.
+3. **Count shared facts.** The notebook counts how many PeaCoK attributes the two speakers share, which are their bridges, as in Task A.
+4. **Save.** The output is `dialogues.json`.
+
+* **Q B.1 (2 pts)** Label pairs with NLI.
+  * **Do:** implement `nli_labels(premises, hypotheses)`, which runs the NLI model on each premise-hypothesis pair and returns `entailment`, `neutral`, or `contradiction`. 
+
+* **Q B.2 (2 pts, 1 pt per function)** Measure contradictions of the profile.
+  * **Do:** implement `persona_nli_matrix(utterances, profile)`, a matrix of NLI labels with one row per utterance and one column per original profile sentence (the profile sentence is the premise, the utterance is the hypothesis). Then implement `contradiction_rate(M)`.
+  * **Report:** the mean contradiction rate for base and for PeaCoK.
+* **Q B.3 (1 pt)** Measure persona coverage.
+  * **Do:** implement `persona_coverage(M)`, which uses the Q B.2 matrix and returns the fraction of profile sentences entailed by at least one utterance.
+  * **Report:** the mean coverage for base and for PeaCoK.
+* **Q B.4 (4 pts)** Decide whether PeaCoK helps
+Two metrics decide whether PeaCoK helps the LLM stay consistent: the contradiction rate from Q B.2 and the persona coverage from Q B.3. 
+  * **Do:** run the provided results cell. It compares base and PeaCoK on both metrics for all dialogues, then separately for dialogues whose speakers share no PeaCoK attribute and for dialogues whose speakers share at least one.
+  * **Report (1pt):** the table.
+  * **Answer (1-2 sentences) (3pts):**
+    1. Does PeaCoK make the LLM more consistent? Use the Verdict in the "all dialogues" rows.
+    2. The paper found a larger gain when the speakers share attributes. Do you see that here? Check N for the ">= 1 shared attribute" rows to draw a conclusion.
+    3. Is either condition consistent only because the speaker says little about itself? Compare its contradiction rate with its coverage.
+
+
+
 ## What to Submit
 
 You should submit the following:
@@ -146,7 +184,8 @@ Submissions should be done on [Blackboard]({{page.submission_link}}).
 ## Grading
 <div class="alert alert-warning" markdown="1">
 * Task A - 12 points (Q A.1: 4, Q A.2: 6, Q A.3: 2)
-* Task B - 
+* Task B - 9 points (Q B.1: 2, Q B.2: 2, Q B.3: 1, Q B.4: 4)
+* **Total - 21 points**
 </div>
 
 {% if page.readings %} 

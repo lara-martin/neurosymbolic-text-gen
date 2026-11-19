@@ -805,8 +805,52 @@
           authors: Dan Jurafsky and James H. Martin
     -
       title: Evaluating Generated Text
-      slides:
+      slides: slides/26-11-19_evaluation.pdf
       readings:
+        -
+          title: "Bleu: a Method for Automatic Evaluation of Machine Translation"
+          url: https://aclanthology.org/P02-1040/
+          authors: Kishore Papineni, Salim Roukos, Todd Ward, Wei-Jing Zhu
+        -
+          title: "ROUGE: A Package for Automatic Evaluation of Summaries"
+          url: https://aclanthology.org/W04-1013/
+          authors: Chin-Yew Lin
+        -
+          title: "Evaluation of Text Generation: A Survey"
+          url: https://arxiv.org/abs/2006.14799
+          authors: Asli Celikyilmaz, Elizabeth Clark, Jianfeng Gao
+        -
+          title: From Word Embeddings To Document Distances
+          url: https://proceedings.mlr.press/v37/kusnerb15.html
+          authors: Matt Kusner, Yu Sun, Nicholas Kolkin, Kilian Weinberger
+        -
+          title: "BERTScore: Evaluating Text Generation with BERT"
+          url: https://openreview.net/pdf?id=SkeHuCVFDr
+          authors: Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi
+        -
+          title: Unifying Human and Statistical Evaluation for Natural Language Generation
+          url: https://aclanthology.org/N19-1169/
+          authors: Tatsunori B. Hashimoto, Hugh Zhang, Percy Liang
+        -
+          title: "BLEURT: Learning Robust Metrics for Text Generation"
+          url: https://aclanthology.org/2020.acl-main.704/
+          authors: Thibault Sellam, Dipanjan Das, Ankur Parikh
+        -
+          title: "What Matters in Evaluating Book-Length Stories? A Systematic Study of Long Story Evaluation"
+          url: https://aclanthology.org/2025.acl-long.799/
+          authors: Dingyi Yang, Qin Jin
+        -
+          title: "Twenty Years of Confusion in Human Evaluation: NLG Needs Evaluation Sheets and Standardised Definitions"
+          url: https://aclanthology.org/2020.inlg-1.23/
+          authors: David M. Howcroft, Anya Belz, Miruna-Adriana Clinciu, Dimitra Gkatzia, Sadid A. Hasan, Saad Mahamood, Simon Mille, Emiel van Miltenburg, Sashank Santhanam, Verena Rieser
+        -
+          title: "Creative Writing with a Machine in the Loop: Case Studies on Slogans and Stories"
+          url: https://doi.org/10.1145/3172944.3172983
+          authors: Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, Noah A. Smith
+        -
+          title: "All That’s ‘Human’ Is Not Gold: Evaluating Human Evaluation of Generated Text"
+          url: https://aclanthology.org/2021.acl-long.565/
+          authors: Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan, Noah A. Smith
     -
       title: Personas and Roleplaying
       slides: #slides/25-12-04_roleplay.pdf
@@ -920,7 +964,7 @@
       title: "Homework 5: Consistent Personas"
       percentage: 10%
       due_date: 2026-12-03
-      url: 
+      url: personas/peacok.html
          
 -
   module_number: 6
