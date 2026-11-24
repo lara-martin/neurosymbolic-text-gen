@@ -854,8 +854,6 @@
     -
       title: Personas and Roleplaying
       slides: #slides/25-12-04_roleplay.pdf
-      guest_speaker: Arya Honraopatil
-      guest_url: https://aryahonraopatil.github.io/
       readings:
         -
           title: Enhancing Persona Consistency for LLMs' Role-Playing using Persona-Aware Contrastive Learning
